@@ -1,0 +1,659 @@
+{
+    "_filename": "RUSSARE  - UOMO vs DONNA...e tu sei pi\u00f9 UOMO o piu' DONNA-XLgla4HLK0k.mp4",
+    "abr": 160,
+    "acodec": "opus",
+    "age_limit": 0,
+    "album": null,
+    "alt_title": null,
+    "annotations": null,
+    "artist": null,
+    "automatic_captions": {},
+    "average_rating": 4.9547482,
+    "categories": [
+        "Comedy"
+    ],
+    "channel_id": "UCMA5Cp7YnlKrNUjZTlWVLQA",
+    "channel_url": "http://www.youtube.com/channel/UCMA5Cp7YnlKrNUjZTlWVLQA",
+    "chapters": null,
+    "creator": null,
+    "description": "Lascia il Like e un commento\nSeguici anche su \nFB :https://www.facebook.com/hermesetitina/\nIG :https://www.instagram.com/hermesetitina/",
+    "dislike_count": null,
+    "display_id": "XLgla4HLK0k",
+    "duration": 100,
+    "end_time": null,
+    "episode_number": null,
+    "ext": "mp4",
+    "extractor": "youtube",
+    "extractor_key": "Youtube",
+    "format": "137 - 1920x1080 (1080p)+251 - audio only (tiny)",
+    "format_id": "137+251",
+    "formats": [
+        {
+            "abr": 50,
+            "acodec": "opus",
+            "asr": 48000,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "webm",
+            "filesize": 625013,
+            "format": "249 - audio only (tiny)",
+            "format_id": "249",
+            "format_note": "tiny",
+            "fps": null,
+            "height": null,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 52.449,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=249&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=audio%2Fwebm&gir=yes&clen=625013&dur=100.161&lmt=1541944973481271&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5411222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAN_Vs3UfFlC6bT7ZCMwevrmx39_oORcqr8cHdnSk2GeiAiEA8bSBGQdCX4V8KTnOeyc9p_MDm-2WcIsRjcTfkQe_S3Q%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "none",
+            "width": null
+        },
+        {
+            "abr": 70,
+            "acodec": "opus",
+            "asr": 48000,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "webm",
+            "filesize": 797288,
+            "format": "250 - audio only (tiny)",
+            "format_id": "250",
+            "format_note": "tiny",
+            "fps": null,
+            "height": null,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 67.212,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=250&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=audio%2Fwebm&gir=yes&clen=797288&dur=100.161&lmt=1541944973882442&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5411222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgT3Wu91MZUR-N_NyWhGU4f2qf0gdwxdDZw1zggDnT-hgCIQCEW4DbUABn83cIxrFXkfwzA7ev_W9HHnwOvm27oUA3yg%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "none",
+            "width": null
+        },
+        {
+            "abr": 128,
+            "acodec": "mp4a.40.2",
+            "asr": 44100,
+            "container": "m4a_dash",
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "m4a",
+            "filesize": 1592314,
+            "format": "140 - audio only (tiny)",
+            "format_id": "140",
+            "format_note": "tiny",
+            "fps": null,
+            "height": null,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 127.99,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=140&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=audio%2Fmp4&gir=yes&clen=1592314&dur=100.194&lmt=1541939834101740&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAJcDpj7Gy_RdaL53zQ9Ivo7WeasUFjjT_pWbhH-ZcgX7AiACOJKnxjoGh04vh4TjU6hnLkTMXyVV_j8_35fZcaavPA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "none",
+            "width": null
+        },
+        {
+            "abr": 160,
+            "acodec": "opus",
+            "asr": 48000,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "webm",
+            "filesize": 1532844,
+            "format": "251 - audio only (tiny)",
+            "format_id": "251",
+            "format_note": "tiny",
+            "fps": null,
+            "height": null,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 130.3,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=251&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=audio%2Fwebm&gir=yes&clen=1532844&dur=100.161&lmt=1541944974405949&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5411222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAITyPjzqjmpaWlDxzhEQAvt2z-fSSatsbNJ0Bsaig5UUAiAfyweJHSMpJ3wOojmO1wjvDim9xCQhMkkGzgpIdIb7GA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "none",
+            "width": null
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "container": "webm",
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "webm",
+            "filesize": 1080542,
+            "format": "278 - 256x144 (144p)",
+            "format_id": "278",
+            "format_note": "144p",
+            "fps": 30,
+            "height": 144,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 97.693,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=278&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fwebm&gir=yes&clen=1080542&dur=100.133&lmt=1541943370660057&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhALtHdN9yQHLNCiEVUv3ih0iJJOgoMz61aOcFW_hzeusSAiEAgoczS5P4vh-c8VsFYYiwcmQn3jPsRR07FxAXrPlsFBc%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "vp9",
+            "width": 256
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "mp4",
+            "filesize": 991715,
+            "format": "160 - 256x144 (144p)",
+            "format_id": "160",
+            "format_note": "144p",
+            "fps": 30,
+            "height": 144,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 111.103,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=160&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fmp4&gir=yes&clen=991715&dur=100.133&lmt=1541939894852969&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgU5wIzZZ1GEwcSEWg4YQtdqo0lFvO8bbX1SDEvXWexJACICGtpJvdVmufDe9d_CzMPsRci3xDvkeS5QxF4h3_NHYf&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "avc1.4d400c",
+            "width": 256
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "webm",
+            "filesize": 2408159,
+            "format": "242 - 426x240 (240p)",
+            "format_id": "242",
+            "format_note": "240p",
+            "fps": 30,
+            "height": 240,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 224.717,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=242&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fwebm&gir=yes&clen=2408159&dur=100.133&lmt=1541943370683518&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAJTkzTqj0iVhMiGZV0fxwINrKWwL0sMbO1ZN_HdkEbC5AiB7tIy97L-E_uoAgdbx7YisnupTOdb4Z4eaRP4a7bWqGA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "vp9",
+            "width": 426
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "mp4",
+            "filesize": 2063298,
+            "format": "133 - 426x240 (240p)",
+            "format_id": "133",
+            "format_note": "240p",
+            "fps": 30,
+            "height": 240,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 245.836,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=133&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fmp4&gir=yes&clen=2063298&dur=100.133&lmt=1541939895053496&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgKttS4ijI6hNBRzZzZ2lLX8Pfp-yefEv9jkuyiXCmowACIA_uVSbLLdX12GuqfgdKK6Ionx0I-O3YhbspVXbcL_II&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "avc1.4d4015",
+            "width": 426
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "webm",
+            "filesize": 4373269,
+            "format": "243 - 640x360 (360p)",
+            "format_id": "243",
+            "format_note": "360p",
+            "fps": 30,
+            "height": 360,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 410.413,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=243&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fwebm&gir=yes&clen=4373269&dur=100.133&lmt=1541943370651667&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgQyJFzYnhKfeVg7A8lUPeWq9dzl8IIiAlhF6p4eDRuyACIQDFXVdna5xmrMlmlGFmnqKFYVzGSsM7SivJIrHHWLDP1A%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "vp9",
+            "width": 640
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "mp4",
+            "filesize": 5360474,
+            "format": "134 - 640x360 (360p)",
+            "format_id": "134",
+            "format_note": "360p",
+            "fps": 30,
+            "height": 360,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 635.253,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=134&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fmp4&gir=yes&clen=5360474&dur=100.133&lmt=1541939895061564&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAMGLR1vfVPlJIiLJZ2FDewq3xj11OSv94sQthkW952AZAiEAn9aVgF4v6-lsaetLCYvh4QQ7J8qydYKsruYW6IaUS1Q%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "avc1.4d401e",
+            "width": 640
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "webm",
+            "filesize": 7920244,
+            "format": "244 - 854x480 (480p)",
+            "format_id": "244",
+            "format_note": "480p",
+            "fps": 30,
+            "height": 480,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 787.585,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=244&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fwebm&gir=yes&clen=7920244&dur=100.133&lmt=1541943370655024&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAK02RcflsXM1lXJadWxajZcckymQDD0_l-vavxJQvwIKAiBNfaaJkMvHq-ZdisNe0Hr3Hx4u62lZhDfmrTkqVrqJSw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "vp9",
+            "width": 854
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "mp4",
+            "filesize": 9863366,
+            "format": "135 - 854x480 (480p)",
+            "format_id": "135",
+            "format_note": "480p",
+            "fps": 30,
+            "height": 480,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 1174.008,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=135&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fmp4&gir=yes&clen=9863366&dur=100.133&lmt=1541939895162864&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgDphYDipWt0kPnNKIo4XWr2Zc-BEhqOIauOUThThq3osCIQCeVGk2OHSbCQ4MBCYvDhQAVOKqTIFm7oi0ifKe8nFp7g%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "avc1.4d401f",
+            "width": 854
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "webm",
+            "filesize": 15933370,
+            "format": "247 - 1280x720 (720p)",
+            "format_id": "247",
+            "format_note": "720p",
+            "fps": 30,
+            "height": 720,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 1515.118,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=247&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fwebm&gir=yes&clen=15933370&dur=100.133&lmt=1541943370639129&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgK5NNzdY1hIVqfWBNn1X0ObtR6skY-uvgSOM356hwMdMCIHpY2JtWYwgojQFBNPgn_NjENfdx_w1T9Fsc0MtM8C48&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "vp9",
+            "width": 1280
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "mp4",
+            "filesize": 16907499,
+            "format": "136 - 1280x720 (720p)",
+            "format_id": "136",
+            "format_note": "720p",
+            "fps": 30,
+            "height": 720,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 2056.66,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=136&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fmp4&gir=yes&clen=16907499&dur=100.133&lmt=1541939895453984&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAIRSTeKzwQ73GfzbmEBz1uAJRv2OAlUq1uOb2AdlgQYlAiEAyryz0TtBc3Cx0Dnx2xPkPPW9fIfaeyVQ8MvbiDtp0tQ%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "avc1.4d401f",
+            "width": 1280
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "webm",
+            "filesize": 28073842,
+            "format": "248 - 1920x1080 (1080p)",
+            "format_id": "248",
+            "format_note": "1080p",
+            "fps": 30,
+            "height": 1080,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 2665.923,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=248&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fwebm&gir=yes&clen=28073842&dur=100.133&lmt=1541940065911868&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAIkb8-_dwM4zxrtmzs2xgZtmdi3S9PjvGX70DHWaAls-AiEAoUT00jMaLvSsBnOoOPTV3Qnf46-3yhUvsvF7SrTS4F8%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "vp9",
+            "width": 1920
+        },
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "mp4",
+            "filesize": 29844990,
+            "format": "137 - 1920x1080 (1080p)",
+            "format_id": "137",
+            "format_note": "1080p",
+            "fps": 30,
+            "height": 1080,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 3533.696,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fmp4&gir=yes&clen=29844990&dur=100.133&lmt=1541939839309995&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAIw5rcijSUjAUPHq3wxyTYQWs3gsEtBg7KZ-_bfxFTzhAiASRqOmaGkBx2mKJRJWqi6D-F6RhenXfEH8HSdJmMI5TA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "avc1.640028",
+            "width": 1920
+        },
+        {
+            "abr": 96,
+            "acodec": "mp4a.40.2",
+            "asr": 44100,
+            "ext": "mp4",
+            "filesize": 8118987,
+            "format": "18 - 640x360 (360p)",
+            "format_id": "18",
+            "format_note": "360p",
+            "fps": 30,
+            "height": 360,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 648.656,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=18&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fmp4&gir=yes&clen=8118987&ratebypass=yes&dur=100.194&lmt=1541939889829042&mt=1602351293&fvip=3&fexp=23915654&c=WEB&txp=5431432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRQIgOEGe9xG7JDtxaRBTUcJIYXNi5VQXD4ar3bJEhl_nLAICIQDrjqkNQvWECweoJMA4ns13V7Zz8sm_BAYz8gUo9UxVdg%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq",
+            "vcodec": "avc1.42001E",
+            "width": 640
+        },
+        {
+            "abr": 192,
+            "acodec": "mp4a.40.2",
+            "asr": 44100,
+            "ext": "mp4",
+            "filesize": null,
+            "format": "22 - 1280x720 (720p)",
+            "format_id": "22",
+            "format_note": "720p",
+            "fps": 30,
+            "height": 720,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 1477.396,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=22&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fmp4&ratebypass=yes&dur=100.194&lmt=1541940101065882&mt=1602351293&fvip=3&fexp=23915654&c=WEB&txp=5431432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhANrFP1IWg3lzm0p0-xyhYbcoQ4d2jFqM73KQE3HaSncWAiEAtXfSmRuQvFNV0dxMuhik3DMAwGTYJGovi88GXi1RpYY%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq",
+            "vcodec": "avc1.64001F",
+            "width": 1280
+        }
+    ],
+    "fps": 30,
+    "fulltitle": "RUSSARE : UOMO vs DONNA...e tu sei pi\u00f9 UOMO o piu' DONNA",
+    "height": 1080,
+    "id": "XLgla4HLK0k",
+    "is_live": null,
+    "license": null,
+    "like_count": null,
+    "playlist": null,
+    "playlist_index": null,
+    "release_date": null,
+    "release_year": null,
+    "requested_formats": [
+        {
+            "acodec": "none",
+            "asr": null,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "mp4",
+            "filesize": 29844990,
+            "format": "137 - 1920x1080 (1080p)",
+            "format_id": "137",
+            "format_note": "1080p",
+            "fps": 30,
+            "height": 1080,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 3533.696,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=137&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=video%2Fmp4&gir=yes&clen=29844990&dur=100.133&lmt=1541939839309995&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5432432&sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAIw5rcijSUjAUPHq3wxyTYQWs3gsEtBg7KZ-_bfxFTzhAiASRqOmaGkBx2mKJRJWqi6D-F6RhenXfEH8HSdJmMI5TA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "avc1.640028",
+            "width": 1920
+        },
+        {
+            "abr": 160,
+            "acodec": "opus",
+            "asr": 48000,
+            "downloader_options": {
+                "http_chunk_size": 10485760
+            },
+            "ext": "webm",
+            "filesize": 1532844,
+            "format": "251 - audio only (tiny)",
+            "format_id": "251",
+            "format_note": "tiny",
+            "fps": null,
+            "height": null,
+            "http_headers": {
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+                "Accept-Encoding": "gzip, deflate",
+                "Accept-Language": "en-us,en;q=0.5",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.12 Safari/537.36"
+            },
+            "player_url": null,
+            "protocol": "https",
+            "tbr": 130.3,
+            "url": "https://r3---sn-p5qs7ned.googlevideo.com/videoplayback?expire=1602372951&ei=9_CBX6uMC8-EhwbxgJioBQ&ip=2601%3A983%3A4700%3Ab6c0%3A5d73%3Aae36%3Ad34a%3A299e&id=o-AGQxszYbwzUGvtFh4AWAjyKxUrire_RtUFYc_D7nZd9c&itag=251&source=youtube&requiressl=yes&mh=lJ&mm=31%2C26&mn=sn-p5qs7ned%2Csn-ab5l6ndy&ms=au%2Conr&mv=m&mvi=3&pl=39&initcwndbps=1996250&vprv=1&mime=audio%2Fwebm&gir=yes&clen=1532844&dur=100.161&lmt=1541944974405949&mt=1602351293&fvip=3&keepalive=yes&fexp=23915654&c=WEB&txp=5411222&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAITyPjzqjmpaWlDxzhEQAvt2z-fSSatsbNJ0Bsaig5UUAiAfyweJHSMpJ3wOojmO1wjvDim9xCQhMkkGzgpIdIb7GA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRAIgAVPVSjom14KqAWUpj3A3jz_-lbJZLg8kr9eNHPSXoLgCICHKa9HU3NaIwCjA4fOeU6GiWBXC3gKYvqS9rmlwWEJq&ratebypass=yes",
+            "vcodec": "none",
+            "width": null
+        }
+    ],
+    "requested_subtitles": null,
+    "resolution": null,
+    "season_number": null,
+    "series": null,
+    "start_time": null,
+    "stretched_ratio": null,
+    "subtitles": {},
+    "tags": [
+        "HERMES",
+        "GRECO",
+        "HERMES E TITINA",
+        "RUSSARE",
+        "UOMO",
+        "DONNA",
+        "RUSSI",
+        "LETTO",
+        "DORMIRE",
+        "FAI TROPPO RUMORE",
+        "TU CHE TIPO SEI",
+        "TIPI DI RUSSO"
+    ],
+    "thumbnail": "https://i.ytimg.com/vi_webp/XLgla4HLK0k/maxresdefault.webp",
+    "thumbnails": [
+        {
+            "height": 94,
+            "id": "0",
+            "resolution": "168x94",
+            "url": "https://i.ytimg.com/vi/XLgla4HLK0k/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLD8edcDFkKDJZKhXbDVs8M1LILTDQ",
+            "width": 168
+        },
+        {
+            "height": 110,
+            "id": "1",
+            "resolution": "196x110",
+            "url": "https://i.ytimg.com/vi/XLgla4HLK0k/hqdefault.jpg?sqp=-oaymwEYCMQBEG5IVfKriqkDCwgBFQAAiEIYAXAB&rs=AOn4CLD75JVx5sYjBKn1LwS5PQAWXFrIYA",
+            "width": 196
+        },
+        {
+            "height": 138,
+            "id": "2",
+            "resolution": "246x138",
+            "url": "https://i.ytimg.com/vi/XLgla4HLK0k/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCfHCoDU2rcpHK9IKmALh6I674qMA",
+            "width": 246
+        },
+        {
+            "height": 188,
+            "id": "3",
+            "resolution": "336x188",
+            "url": "https://i.ytimg.com/vi/XLgla4HLK0k/hqdefault.jpg?sqp=-oaymwEZCNACELwBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLCI-tjceJt99fny9BkgLAKoKCt5Ug",
+            "width": 336
+        },
+        {
+            "height": 1080,
+            "id": "4",
+            "resolution": "1920x1080",
+            "url": "https://i.ytimg.com/vi_webp/XLgla4HLK0k/maxresdefault.webp",
+            "width": 1920
+        }
+    ],
+    "title": "RUSSARE : UOMO vs DONNA...e tu sei pi\u00f9 UOMO o piu' DONNA",
+    "track": null,
+    "upload_date": "20170308",
+    "uploader": "Hermes&Titina Show",
+    "uploader_id": "UCMA5Cp7YnlKrNUjZTlWVLQA",
+    "uploader_url": "http://www.youtube.com/channel/UCMA5Cp7YnlKrNUjZTlWVLQA",
+    "vbr": null,
+    "vcodec": "avc1.640028",
+    "view_count": 225077,
+    "webpage_url": "https://www.youtube.com/watch?v=XLgla4HLK0k",
+    "webpage_url_basename": "XLgla4HLK0k",
+    "width": 1920
+}
