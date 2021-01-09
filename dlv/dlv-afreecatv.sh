@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# dummy comment
+
 # Script's variables
 SCRIPT_NAME=${0##*/};
 SCRIPT_TIME=$(date "+%Y%m%d_%H%M%S");
