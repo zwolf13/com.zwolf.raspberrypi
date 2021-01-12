@@ -148,7 +148,7 @@ function runYoutubeDl() {
     # ^M[download]  10.7% of ~6.52GiB at 27.87KiB/s ETA --:--:--
     # ^M[download]  92.2% of ~742.28MiB at 136.72KiB/s ETA 00:50
     # TODO Type ^M as a character
-    remove_regex="^M\[download\]\s*[0-9%.]*\s*\(of\)\s*[0-9a-zA-Z.~]*\s*\(at\)\s*[0-9a-zA-Z./]*\s*\(ETA\)\s*[0-9:-]*";
+    remove_regex="\[download\]\s*[0-9%.]*\s*\(of\)\s*[0-9a-zA-Z.~]*\s*\(at\)\s*[0-9a-zA-Z./]*\s*\(ETA\)\s*[0-9:-]*";
     YT_CMD_OUTPUT=$(echo ${TMP} | sed 's/${remove_regex}//g');
 }
 
