@@ -151,7 +151,6 @@ function downloadVideos() {
         fi
 
         YT_DL_OUTPUT=$(sudo python3 /usr/bin/youtube-dl --format 'best[ext=mp4]/best' --output "${OUTPUT_FOLDER}/%(extractor)s/%(title)s - %(id)s.%(ext)s" --no-overwrites --restrict-filenames --recode-video mp4 --write-info-json --write-thumbnail --download-archive archive-afreecatv.txt ${cookies_parameter} "${URL}" 2>&1);
-#        logInfo "${YT_DL_OUTPUT}";
 
         if [[ !$? -eq 0 ]] # TODO check YT_DL_OUTPUT to determine error or success
         then
