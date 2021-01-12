@@ -113,6 +113,15 @@ function initScript() {
     chmod 777 ${SCRIPT_LOGFILE} ${SCRIPT_ERRORFILE} ${INPUT_FILE_BACKUP}
 }
 
+function getDiskDetails() {
+    df_details=($(df -ha /home/pi/rpi4mediaserver/));
+
+    for my_line in "${df_details[@]}"
+    do
+        logInfo "${my_line}";
+    done
+}
+
 function downloadVideos() {
     start=`date "+%s"`;
     counter=0;
@@ -155,7 +164,7 @@ function downloadVideos() {
             while [ "${retry}" == "1" ]
             do
                 ((CURRENT_RETRIES++));
-                logInfo "Retrying download in 30s...";
+                logInfo "Retrying (${counter} / ${NUMBER_OF_URLS}) '${URL}'  in 30s...";
                 sleep 30s;
 
                 logInfo "Retry attempt: ${CURRENT_RETRIES}";
@@ -170,9 +179,6 @@ function downloadVideos() {
         else
             ((SUCCESS++));
         fi
-
-        echo "YT_DL_OUTPUT:";
-        echo "${YT_DL_OUTPUT}";
 
     done < ${INPUT_FILE}
 
@@ -209,5 +215,7 @@ function printSummary() {
 # Main
 
 initScript $@;
+getDiskDetails;
 downloadVideos;
+getDiskDetails;
 printSummary;

@@ -11,7 +11,7 @@ VERBOSE="false";
 
 URL_REGEX="(https?):\/\/[A-Za-z0-9\+&@#/%?=~_|!:,.;-]*[-A-Za-z0-9\+&@#/%=~_|]";
 COMMENT_REGEX="^#";
-INPUT_FILE="/home/pi/youtube-dl/urls.txt";
+INPUT_FILE="./urls.txt";
 INPUT_FILE_BACKUP=logs/${SCRIPT_UNIQUE_NAME}.txt;
 OUTPUT_FOLDER="/home/pi/rpi4mediaserver/nnlk-tmp/videos";
 COOKIES_FILE="";
@@ -171,10 +171,10 @@ function printSummary() {
     echo "  Output folder: ${OUTPUT_FOLDER}";
     echo "  Success:       ${SUCCESS}";
     echo "  Errors:        ${ERRORS}";
-    echo "  Total time:    ${totalTime}"
-    echo "  Log File:      ${SCRIPT_LOGFILE}"
-    echo "  Errors:        ${SCRIPT_ERRORFILE}"
-    echo "  Input backup:  ${INPUT_FILE_BACKUP}"
+    echo "  Total time:    ${totalTime}";
+    echo "  Log File:      ${SCRIPT_LOGFILE}";
+    echo "  Errors:        ${SCRIPT_ERRORFILE}";
+    echo "  Input backup:  ${INPUT_FILE_BACKUP}";
     echo "  -----------------------------------------------";
 }
 

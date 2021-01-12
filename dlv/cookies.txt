@@ -2,22 +2,24 @@
 # https://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file! Do not edit.
 
-#HttpOnly_.youtube.com	TRUE	/	TRUE	1625000274	VISITOR_INFO1_LIVE	2Wtlg49OPKg
-.youtube.com	TRUE	/	FALSE	2145916800	CONSENT	WP.28ee2d
-.youtube.com	TRUE	/	FALSE	1609450078	GPS	1
-.youtube.com	TRUE	/	FALSE	1672520289	SID	4gdC1JjCyD7u91jxV4LteJFm_FPku3IS3q9gfeQIKDDP_O0ldOgMqBpImBsZnsM5aFvJZQ.
-#HttpOnly_.youtube.com	TRUE	/	TRUE	1672520289	__Secure-3PSID	4gdC1JjCyD7u91jxV4LteJFm_FPku3IS3q9gfeQIKDDP_O0ljnMdLddyqLIvCFYcpfMC_w.
-#HttpOnly_.youtube.com	TRUE	/	FALSE	1672520289	HSID	AfTPcftF9Tj4n0uY7
-#HttpOnly_.youtube.com	TRUE	/	TRUE	1672520289	SSID	AkXxJch95lJsSLRgg
-.youtube.com	TRUE	/	FALSE	1672520289	APISID	8xv8x7yqJD5XT3q5/A0qAMT3PyivlyfuF6
-.youtube.com	TRUE	/	TRUE	1672520289	SAPISID	0LOBeTX9enqMWtbF/AdOezdFL3R9nPfosF
-.youtube.com	TRUE	/	TRUE	1672520289	__Secure-3PAPISID	0LOBeTX9enqMWtbF/AdOezdFL3R9nPfosF
-#HttpOnly_.youtube.com	TRUE	/	TRUE	1672520290	LOGIN_INFO	AFmmF2swRgIhAP1E3i_0jFs1xOhLWUpc2mrs8MNAVoOp2g4VQL2KgPwzAiEA_ivGwi0t2Oh2rA-W46P2ITh_qrgjCVP4fqU2KWYuA2w:QUQ3MjNmd0VGelRidHRWTEV2dFlZb21TNzE0b1hyQ3BBZFNLOHI2blgyX3F0N3hMdWx2YVZ0LS0yOU5YNGlOZVVEdGhYd3FsaWEyNTE2LUhSVTVPTGU0ckkydE1Md3VkMktTZXJJN2x1WGF1ZjRXQ2M4U0JZUTYtWmhWanZqY2NGZUtTbjN3MVR6bjJiWUtDamswX2JqYjFFNkdWWEp3ZXZrbmdGZTlZeDZjSUNrQ01rMHNCUnpR
-.youtube.com	TRUE	/	FALSE	1609448302	ST-1b	itct=CCIQsV4iEwi3u9iWjvntAhWr7GAKHTuQDcs%3D&csn=MC41OTcyOTYxODYyMDU4Mjc.&endpoint=%7B%22clickTrackingParams%22%3A%22CCIQsV4iEwi3u9iWjvntAhWr7GAKHTuQDcs%3D%22%2C%22commandMetadata%22%3A%7B%22webCommandMetadata%22%3A%7B%22url%22%3A%22%2F%22%2C%22webPageType%22%3A%22WEB_PAGE_TYPE_BROWSE%22%2C%22rootVe%22%3A3854%2C%22apiUrl%22%3A%22%2Fyoutubei%2Fv1%2Fbrowse%22%7D%7D%2C%22browseEndpoint%22%3A%7B%22browseId%22%3A%22FEwhat_to_watch%22%7D%7D
-#HttpOnly_.youtube.com	TRUE	/	TRUE	0	YSC	8ot7cgudM6Y
-.youtube.com	TRUE	/	FALSE	1609770835	ST-1btfh0e	itct=COUBEOE5IhMIn6243L-C7gIVytlgCh13Wgau&csn=MC4xMDM0Mjg0NDI4ODUyMzE3OQ..&endpoint=%7B%22clickTrackingParams%22%3A%22COUBEOE5IhMIn6243L-C7gIVytlgCh13Wgau%22%2C%22commandMetadata%22%3A%7B%22webCommandMetadata%22%3A%7B%22url%22%3A%22%2Fchannel%2FUCgArEQDxMoYi9gnwdr58Ccg%22%2C%22webPageType%22%3A%22WEB_PAGE_TYPE_CHANNEL%22%2C%22rootVe%22%3A3611%7D%7D%2C%22browseEndpoint%22%3A%7B%22browseId%22%3A%22UCgArEQDxMoYi9gnwdr58Ccg%22%7D%7D
-.youtube.com	TRUE	/	FALSE	1609770839	ST-vo4nd2	itct=CCwQ8JMBGAEiEwiZiq_ev4LuAhWD6pwKHfX-Bmo%3D&csn=MC4zNDEzMDA3MTkxMDk2OTg3&endpoint=%7B%22clickTrackingParams%22%3A%22CCwQ8JMBGAEiEwiZiq_ev4LuAhWD6pwKHfX-Bmo%3D%22%2C%22commandMetadata%22%3A%7B%22webCommandMetadata%22%3A%7B%22url%22%3A%22%2Fuser%2Famjjzz%2Fvideos%22%2C%22webPageType%22%3A%22WEB_PAGE_TYPE_CHANNEL%22%2C%22rootVe%22%3A3611%2C%22apiUrl%22%3A%22%2Fyoutubei%2Fv1%2Fbrowse%22%7D%7D%2C%22browseEndpoint%22%3A%7B%22browseId%22%3A%22UCgArEQDxMoYi9gnwdr58Ccg%22%2C%22params%22%3A%22EgZ2aWRlb3M%253D%22%2C%22canonicalBaseUrl%22%3A%22%2Fuser%2Famjjzz%22%7D%7D
-.youtube.com	TRUE	/	TRUE	1609961399	CONSISTENCY	AGDxDeM7Mz6HKTKjI_h2sKU3j1B1NdgfK9rJlHB6p5NOh5MVVUiNSK7fu2g6HFUNkfRncfG9obxZ5PZlA1eF_vA8cERLaExQSn8QYUUwuY53JhNhPCkHw_cq_u01GdAmqBtxq9qFhha6iiz8wZdctVod
-.youtube.com	TRUE	/	TRUE	1630998877	PREF	f6=400
-.youtube.com	TRUE	/	FALSE	1641496996	SIDCC	AJi4QfGVEio6BGV_5r4eYtZ5quHJXeKnaUH_yh4SMGixRjwkX52r-PyKLkkHSGb6-1ypMALgTw
-#HttpOnly_.youtube.com	TRUE	/	TRUE	1641496996	__Secure-3PSIDCC	AJi4QfHcOsfSrxJb3MRgkssoqgEaXdsXnW0VgUso0ArF84zHe2QUCwEUIA4zX1FMJWwbQJ4RfMs
+.afreecatv.com	TRUE	/	FALSE	1671051038	OAX	Sa+361/X0B4AB/wK
+.afreecatv.com	TRUE	/	FALSE	1671051023	_au	eaf26918cdf2a066842d9abfc11400e9
+.afreecatv.com	TRUE	/	FALSE	0	AbroadChk	OK
+.afreecatv.com	TRUE	/	FALSE	1610060530	TempCook	.A32.7bbT56vyHM9fKZk.5aIszfQE6GRVYifjm1T_Pg
+.afreecatv.com	TRUE	/	FALSE	0	PdboxTicket	.A32.7bbT56vyHM9fKZk.9BeQpFmqluLQMfQmemIop5UsvpMJVQQm4XcssYgTWA3mVlW6zgZ8dVCOptnP7LpvJA8E9b9E_8up-dK908SzvGUAYkf-OrBXz05qeALD2WN3GJeCl4hiiMJEdPRK5noQr5GJIE3oI27CSGYxrDp8hzjCcv5AVNcbVUihfm61SWW_qP8UhPfGIChxis4vArbuiY3z-UlYIkhFv2P2PFOPM_Fd8N7rl8lYjnqgDEJ3Jl6Q2-8kHBs76s9qQQ2c4fqlpGlP0TEmyflpu9YqVOcB2bPR8NigC3ps7o-07mePbbGdwP-tDwYR8BD6G8ZDE77mZxyuKmvgtle9bH2eY7AwNQQZCibmbxQtAp8DdvIYNQEZ6ELrODFtLYAbEmBVmF8mItMH5TXLXTMRW6BkkP2FeSoK0l82dxw5r7vHU1rUL4zjMNchNijokhQvaJvJpe6JcPomyLlYuFhgfny9wZiAqml6Hi61_GqVOcheL0Pq1JZsYKDKtaNQvpSVWwvNZ-IrqVIL_G7bV-FE_bWs3LJfm-gk7YW-aa5gzijOe54oW4Q
+.afreecatv.com	TRUE	/	FALSE	0	PdboxBbs	nanalka
+.afreecatv.com	TRUE	/	FALSE	0	PdboxUser	uid%3Dnanalka%26uno%3D42992519%26age%3D38%26sex%3DA%26A%3DAAF%26B%3DBADI%26unick%3Dnanalka%26apply_date%3D1610057333%26name_chk%3D1%26sess_adult_chk%3D1%26broad_name_chk%3D1%26change_password%3D%26chnnl_cd%3D1%26chnnl_name_chk%3D1
+.afreecatv.com	TRUE	/	FALSE	0	isBbs	1
+.afreecatv.com	TRUE	/	FALSE	0	RDB	c803000000000055530000000000000000000000000000000100000026260000000000000001
+#HttpOnly_.afreecatv.com	TRUE	/	FALSE	1610139261	laravel_session	9d3dqya3yKDKNCCky9TCw5llUOTSNygNyadWUyJx
+.afreecatv.com	TRUE	/	FALSE	1673204085	_ga_ZY66SREBEM	GS1.1.1610132058.1.1.1610132085.0
+.afreecatv.com	TRUE	/	FALSE	1610256697	VodAutoPlay	off
+.afreecatv.com	TRUE	/	FALSE	1610170930	_gat_gtag_UA_132973034_1	1
+#HttpOnly_.afreecatv.com	TRUE	/	FALSE	98225608635	bjStationHistory	%029845448
+.afreecatv.com	TRUE	/	FALSE	1610379007	play_method	sequence
+.afreecatv.com	TRUE	/	FALSE	1610386057	AbroadVod	OK
+.afreecatv.com	TRUE	/	FALSE	1673447261	_ga	GA1.2.1415616627.1607979018
+.afreecatv.com	TRUE	/	FALSE	1610461661	_gid	GA1.2.1834845511.1610292567
+.afreecatv.com	TRUE	/	FALSE	1610375321	_gat	1
+.afreecatv.com	TRUE	/	FALSE	1610375584	_ausa	0x9863ccae
+.afreecatv.com	TRUE	/	FALSE	1610377084	_ausb	0x8fb97286
