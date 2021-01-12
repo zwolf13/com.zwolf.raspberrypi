@@ -30,9 +30,20 @@ TOTAL_TIME="";
 ERRORS=0;
 SUCCESS=0;
 
+# Disk usage
+DISK_INITIAL_USE="";
+DISK_INITIAL_AVAIL="";
+DISK_INITIAL_PERCENT="";
+DISK_FINAL_USE="";
+DISK_FINAL_AVAIL="";
+DISK_FINAL_PERCENT="";
+
 # youtube-dl command output
-YT_CMD_OUTPUT="";
 YT_CMD_PARAMS="--format 'best[ext=mp4]/best' --no-overwrites --restrict-filenames --recode-video mp4 --write-info-json --write-thumbnail";
+YT_CMD_OUTPUT="";
+YT_CMD_ERROR=0;
+YT_CMD_ERROR_MSG="";
+RETRY_ERROR_MSG="ERROR: unable to download video data: <urlopen error [Errno -2] Name or service not known>";
 
 ################################################
 
@@ -120,8 +131,22 @@ function initScript() {
     chmod 777 ${SCRIPT_LOGFILE} ${SCRIPT_ERRORFILE} ${INPUT_FILE_BACKUP}
 }
 
+function checkInitialDiskState() {
+    DF_OUTPUT=($(df -ha /home/pi/rpi4mediaserver/ | tail -n 1 | awk '{print $3,$4,$5}'));
+    DISK_INITIAL_USE="${DF_OUTPUT[0]}";
+	DISK_INITIAL_AVAIL="${DF_OUTPUT[1]}";
+	DISK_INITIAL_PERCENT="${DF_OUTPUT[2]}";
+}
+
+function checkFinalDiskState() {
+    DF_OUTPUT=($(df -ha /home/pi/rpi4mediaserver/ | tail -n 1 | awk '{print $3,$4,$5}'));
+    DISK_FINAL_USE="${DF_OUTPUT[0]}";
+	DISK_FINAL_AVAIL="${DF_OUTPUT[1]}";
+	DISK_FINAL_PERCENT="${DF_OUTPUT[2]}";
+}
+
 function runYoutubeDl() {
-    my_url=$1;
+    MY_URL=$1;
     ARCHIVE_PARAM="${DEFAULT_ARCHIVE}";
     OUTPUT_PARAM="${OUTPUT_FOLDER}/%(extractor)s/%(title)s - %(id)s.%(ext)s";
 
@@ -134,22 +159,32 @@ function runYoutubeDl() {
     fi
 
     # Checking special extractors
-    if [[ ${my_url} == *"tokyomotion"* ]]
+    if [[ ${MY_URL} == *"tokyomotion"* ]]
     then
         ARCHIVE_PARAM="${TOKYOMOTION_ARCHIVE}";
-    elif [[ ${my_url} == *"v.afree.ca"* ]]
+    elif [[ ${MY_URL} == *"v.afree.ca"* ]]
     then
         ARCHIVE_PARAM="${AFREECATV_ARCHIVE}";
     fi
 
-    TMP=$(sudo python3 /usr/bin/youtube-dl "${YT_CMD_PARAMS}" --output "${OUTPUT_PARAM}" --download-archive "${ARCHIVE_PARAM}" ${cookies_parameter} "${my_url}" 2>&1);
-
-    # TMP will have undesired lines like:
+    # TMP will have undesired lines and those will be removed with the sed command:
     # ^M[download]  10.7% of ~6.52GiB at 27.87KiB/s ETA --:--:--
     # ^M[download]  92.2% of ~742.28MiB at 136.72KiB/s ETA 00:50
-    # TODO Type ^M as a character
+    TMP=$(sudo python3 /usr/bin/youtube-dl "${YT_CMD_PARAMS}" --output "${OUTPUT_PARAM}" --download-archive "${ARCHIVE_PARAM}" ${cookies_parameter} "${MY_URL}" 2>&1);
     remove_regex="\[download\]\s*[0-9%.]*\s*\(of\)\s*[0-9a-zA-Z.~]*\s*\(at\)\s*[0-9a-zA-Z./]*\s*\(ETA\)\s*[0-9:-]*";
     YT_CMD_OUTPUT=$(echo ${TMP} | sed 's/${remove_regex}//g');
+    logInfo "${YT_CMD_OUTPUT}";
+
+    # Determine if any error happened
+    LAST_LINE=$(echo ${YT_CMD_OUTPUT} | tail -n 1);
+    if [[ ${LAST_LINE} == *"ERROR"* ]]
+    then
+        YT_CMD_ERROR=1;
+        YT_CMD_ERROR_MSG="${LAST_LINE}";
+    else
+        YT_CMD_ERROR=0;
+        YT_CMD_ERROR_MSG="";
+    fi
 }
 
 function downloadVideos() {
@@ -173,11 +208,25 @@ function downloadVideos() {
 
 		runYoutubeDl "${URL}";
 
-        if [[ !$? -eq 0 ]]
+        if [[ !${YT_CMD_ERROR} -eq 0 ]]
         then
             ((ERRORS++));
-            logError "  An error ocurred while downloading video: '${URL}'";
+            logError "An error ocurred while downloading video: '${URL}'";
+            logError "  ${YT_CMD_ERROR_MSG}";
             echo ${URL} >> ${SCRIPT_ERRORFILE};
+
+            CURRENT_RETRIES=0;
+            while [ "${YT_CMD_ERROR_MSG}" == *"${RETRY_ERROR_MSG}"* ]
+            do
+                ((CURRENT_RETRIES++));
+                logInfo "Retrying (${counter} / ${NUMBER_OF_URLS}) '${URL}' in 30s...";
+                sleep 30s;
+
+                logInfo "Retry attempt: ${CURRENT_RETRIES}";
+                runYoutubeDl "${URL}";
+            done
+
+            ((RETRIES+=CURRENT_RETRIES));
         else
             ((SUCCESS++));
         fi
@@ -200,14 +249,27 @@ function printSummary() {
     echo "  -----------------------------------------------";
     echo "  SUMMARY";
     echo "  -----------------------------------------------";
-    echo "  Input URLs:    ${NUMBER_OF_URLS}";
-    echo "  Output folder: ${OUTPUT_FOLDER}";
-    echo "  Success:       ${SUCCESS}";
-    echo "  Errors:        ${ERRORS}";
-    echo "  Total time:    ${totalTime}";
-    echo "  Log File:      ${SCRIPT_LOGFILE}";
-    echo "  Errors:        ${SCRIPT_ERRORFILE}";
-    echo "  Input backup:  ${INPUT_FILE_BACKUP}";
+    echo "  Input URLs:     ${NUMBER_OF_URLS}";
+    echo "  Output folder:  ${OUTPUT_FOLDER}";
+    echo "  -----------------------------------------------";
+    echo "  Success:        ${SUCCESS}";
+    echo "  Errors:         ${ERRORS}";
+    echo "  Retries:        ${RETRIES}";
+    echo "  -----------------------------------------------";
+    echo "  Log File:       ${SCRIPT_LOGFILE}";
+    echo "  Errors File:    ${SCRIPT_ERRORFILE}";
+    echo "  Input backup:   ${INPUT_FILE_BACKUP}";
+    echo "  -----------------------------------------------";
+    echo "  Initial Disk Usage";
+    echo "    Available:    ${DISK_INITIAL_AVAIL}";
+    echo "    Used:         ${DISK_INITIAL_USE}";
+    echo "    Used (%):     ${DISK_INITIAL_PERCENT}";
+    echo "  Final Disk Usage";
+    echo "    Available:    ${DISK_FINAL_AVAIL}";
+    echo "    Used:         ${DISK_FINAL_USE}";
+    echo "    Used (%):     ${DISK_FINAL_PERCENT}";
+    echo "  -----------------------------------------------";
+    echo "  Total time:     ${totalTime}";
     echo "  -----------------------------------------------";
 }
 
@@ -216,5 +278,7 @@ function printSummary() {
 # Main
 
 initScript $@;
+checkInitialDiskState;
 downloadVideos;
+checkFinalDiskState;
 printSummary;
