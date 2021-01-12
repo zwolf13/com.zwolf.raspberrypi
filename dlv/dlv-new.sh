@@ -134,15 +134,15 @@ function initScript() {
 function checkInitialDiskState() {
     DF_OUTPUT=($(df -ha /home/pi/rpi4mediaserver/ | tail -n 1 | awk '{print $3,$4,$5}'));
     DISK_INITIAL_USE="${DF_OUTPUT[0]}";
-	DISK_INITIAL_AVAIL="${DF_OUTPUT[1]}";
-	DISK_INITIAL_PERCENT="${DF_OUTPUT[2]}";
+    DISK_INITIAL_AVAIL="${DF_OUTPUT[1]}";
+    DISK_INITIAL_PERCENT="${DF_OUTPUT[2]}";
 }
 
 function checkFinalDiskState() {
     DF_OUTPUT=($(df -ha /home/pi/rpi4mediaserver/ | tail -n 1 | awk '{print $3,$4,$5}'));
     DISK_FINAL_USE="${DF_OUTPUT[0]}";
-	DISK_FINAL_AVAIL="${DF_OUTPUT[1]}";
-	DISK_FINAL_PERCENT="${DF_OUTPUT[2]}";
+    DISK_FINAL_AVAIL="${DF_OUTPUT[1]}";
+    DISK_FINAL_PERCENT="${DF_OUTPUT[2]}";
 }
 
 function runYoutubeDl() {
@@ -206,7 +206,7 @@ function downloadVideos() {
             continue;
         fi
 
-		runYoutubeDl "${URL}";
+        runYoutubeDl "${URL}";
 
         if [[ !${YT_CMD_ERROR} -eq 0 ]]
         then
