@@ -138,7 +138,7 @@ function downloadVideos() {
             continue;
         fi
 
-        sudo python3 /usr/bin/youtube-dl --format 'best[ext=mp4][filesize<500M]/best[filesize<500M]/worst' --output "${OUTPUT_FOLDER}/%(extractor)s/%(title)s - %(id)s.%(ext)s" --no-overwrites --restrict-filenames --recode-video mp4 --write-info-json --write-thumbnail --download-archive archive.txt ${cookies_parameter} "${URL}"
+        sudo python3 /usr/bin/youtube-dl --format 'best[ext=mp4]/best' --output "${OUTPUT_FOLDER}/%(extractor)s/%(title)s - %(id)s.%(ext)s" --no-overwrites --restrict-filenames --recode-video mp4 --write-info-json --write-thumbnail --download-archive archive.txt ${cookies_parameter} "${URL}"
 
         if [[ !$? -eq 0 ]]
         then
