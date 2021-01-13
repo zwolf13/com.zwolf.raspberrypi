@@ -170,7 +170,7 @@ function runYoutubeDl() {
     # TMP will have undesired lines and those will be removed with the sed command:
     # ^M[download]  10.7% of ~6.52GiB at 27.87KiB/s ETA --:--:--
     # ^M[download]  92.2% of ~742.28MiB at 136.72KiB/s ETA 00:50
-    TMP=$(sudo python3 /usr/bin/youtube-dl "${YT_CMD_PARAMS}" --output "${OUTPUT_PARAM}" --download-archive "${ARCHIVE_PARAM}" ${cookies_parameter} "${MY_URL}" 2>&1);
+    TMP=$(sudo python3 /usr/bin/youtube-dl --format 'best[ext=mp4]/best' --no-overwrites --restrict-filenames --recode-video mp4 --write-info-json --write-thumbnail --output "${OUTPUT_PARAM}" ${cookies_parameter} "${MY_URL}" 2>&1);
     remove_regex="\[download\]\s*[0-9%.]*\s*\(of\)\s*[0-9a-zA-Z.~]*\s*\(at\)\s*[0-9a-zA-Z./]*\s*\(ETA\)\s*[0-9:-]*";
     YT_CMD_OUTPUT=$(echo ${TMP} | sed 's/${remove_regex}//g');
     logInfo "${YT_CMD_OUTPUT}";
@@ -216,7 +216,9 @@ function downloadVideos() {
             echo ${URL} >> ${SCRIPT_ERRORFILE};
 
             CURRENT_RETRIES=0;
-            while [ "${YT_CMD_ERROR_MSG}" == *"${RETRY_ERROR_MSG}"* ]
+            echo "RETRY CONDITION:"
+            [[ "${YT_CMD_ERROR_MSG}" == *"${RETRY_ERROR_MSG}"* ]] && echo false || echo true
+            while [[ "${YT_CMD_ERROR_MSG}" == *"${RETRY_ERROR_MSG}"* ]]
             do
                 ((CURRENT_RETRIES++));
                 logInfo "Retrying (${counter} / ${NUMBER_OF_URLS}) '${URL}' in 30s...";
