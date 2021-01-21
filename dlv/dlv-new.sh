@@ -35,7 +35,6 @@ DISK_INITIAL_USE="";
 DISK_INITIAL_AVAIL="";
 DISK_INITIAL_PERCENT="";
 DISK_FINAL_USE="";
-DISK_FINAL_AVAIL="";
 DISK_FINAL_PERCENT="";
 
 # youtube-dl command output
@@ -141,7 +140,6 @@ function checkInitialDiskState() {
 function checkFinalDiskState() {
     DF_OUTPUT=($(df -ha /home/pi/rpi4mediaserver/ | tail -n 1 | awk '{print $3,$4,$5}'));
     DISK_FINAL_USE="${DF_OUTPUT[0]}";
-    DISK_FINAL_AVAIL="${DF_OUTPUT[1]}";
     DISK_FINAL_PERCENT="${DF_OUTPUT[2]}";
 }
 
@@ -162,17 +160,12 @@ function runYoutubeDl() {
     if [[ ${MY_URL} == *"tokyomotion"* ]]
     then
         ARCHIVE_PARAM="${TOKYOMOTION_ARCHIVE}";
-    elif [[ ${MY_URL} == *"v.afree.ca"* ]]
-    then
-        ARCHIVE_PARAM="${AFREECATV_ARCHIVE}";
     fi
 
     # TMP will have undesired lines and those will be removed with the sed command:
     # ^M[download]  10.7% of ~6.52GiB at 27.87KiB/s ETA --:--:--
     # ^M[download]  92.2% of ~742.28MiB at 136.72KiB/s ETA 00:50
-    TMP=$(sudo python3 /usr/bin/youtube-dl --format 'best[ext=mp4]/best' --no-overwrites --restrict-filenames --recode-video mp4 --write-info-json --write-thumbnail --output "${OUTPUT_PARAM}" ${cookies_parameter} "${MY_URL}" 2>&1);
-    remove_regex="\[download\]\s*[0-9%.]*\s*\(of\)\s*[0-9a-zA-Z.~]*\s*\(at\)\s*[0-9a-zA-Z./]*\s*\(ETA\)\s*[0-9:-]*";
-    YT_CMD_OUTPUT=$(echo ${TMP} | sed 's/${remove_regex}//g');
+    YT_CMD_OUTPUT=$(sudo python3 /usr/bin/youtube-dl --format 'best[ext=mp4]/best' --no-overwrites --no-progress --restrict-filenames --recode-video mp4 --write-info-json --write-thumbnail --output "${OUTPUT_PARAM}" --download-archive "${ARCHIVE_PARAM}" ${cookies_parameter} "${MY_URL}" 2>&1);
     logInfo "${YT_CMD_OUTPUT}";
 
     # Determine if any error happened
@@ -216,14 +209,11 @@ function downloadVideos() {
             echo ${URL} >> ${SCRIPT_ERRORFILE};
 
             CURRENT_RETRIES=0;
-            echo "RETRY CONDITION:"
-            [[ "${YT_CMD_ERROR_MSG}" == *"${RETRY_ERROR_MSG}"* ]] && echo false || echo true
             while [[ "${YT_CMD_ERROR_MSG}" == *"${RETRY_ERROR_MSG}"* ]]
             do
                 ((CURRENT_RETRIES++));
                 logInfo "Retrying (${counter} / ${NUMBER_OF_URLS}) '${URL}' in 30s...";
                 sleep 30s;
-
                 logInfo "Retry attempt: ${CURRENT_RETRIES}";
                 runYoutubeDl "${URL}";
             done
@@ -262,12 +252,11 @@ function printSummary() {
     echo "  Errors File:    ${SCRIPT_ERRORFILE}";
     echo "  Input backup:   ${INPUT_FILE_BACKUP}";
     echo "  -----------------------------------------------";
+    echo "  TOTAL DISK:     ${DISK_INITIAL_AVAIL}";
     echo "  Initial Disk Usage";
-    echo "    Available:    ${DISK_INITIAL_AVAIL}";
     echo "    Used:         ${DISK_INITIAL_USE}";
     echo "    Used (%):     ${DISK_INITIAL_PERCENT}";
     echo "  Final Disk Usage";
-    echo "    Available:    ${DISK_FINAL_AVAIL}";
     echo "    Used:         ${DISK_FINAL_USE}";
     echo "    Used (%):     ${DISK_FINAL_PERCENT}";
     echo "  -----------------------------------------------";
