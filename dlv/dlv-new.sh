@@ -35,6 +35,7 @@ DISK_INITIAL_USE="";
 DISK_INITIAL_AVAIL="";
 DISK_INITIAL_PERCENT="";
 DISK_FINAL_USE="";
+DISK_FINAL_AVAIL="";
 DISK_FINAL_PERCENT="";
 
 # youtube-dl command output
@@ -140,6 +141,7 @@ function checkInitialDiskState() {
 function checkFinalDiskState() {
     DF_OUTPUT=($(df -ha /home/pi/rpi4mediaserver/ | tail -n 1 | awk '{print $3,$4,$5}'));
     DISK_FINAL_USE="${DF_OUTPUT[0]}";
+    DISK_FINAL_AVAIL="${DF_OUTPUT[1]}";
     DISK_FINAL_PERCENT="${DF_OUTPUT[2]}";
 }
 
@@ -252,11 +254,12 @@ function printSummary() {
     echo "  Errors File:    ${SCRIPT_ERRORFILE}";
     echo "  Input backup:   ${INPUT_FILE_BACKUP}";
     echo "  -----------------------------------------------";
-    echo "  TOTAL DISK:     ${DISK_INITIAL_AVAIL}";
     echo "  Initial Disk Usage";
+    echo "    Available:    ${DISK_INITIAL_AVAIL}";
     echo "    Used:         ${DISK_INITIAL_USE}";
     echo "    Used (%):     ${DISK_INITIAL_PERCENT}";
     echo "  Final Disk Usage";
+    echo "    Available:    ${DISK_FINAL_AVAIL}";
     echo "    Used:         ${DISK_FINAL_USE}";
     echo "    Used (%):     ${DISK_FINAL_PERCENT}";
     echo "  -----------------------------------------------";
