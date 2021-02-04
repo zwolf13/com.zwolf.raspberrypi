@@ -29,8 +29,10 @@ NUMBER_OF_URLS="";
 TOTAL_TIME="";
 ERRORS=0;
 SUCCESS=0;
+RETRIES=0;
 
 # Disk usage
+DISK_SIZE="";
 DISK_INITIAL_USE="";
 DISK_INITIAL_AVAIL="";
 DISK_INITIAL_PERCENT="";
@@ -39,7 +41,7 @@ DISK_FINAL_AVAIL="";
 DISK_FINAL_PERCENT="";
 
 # youtube-dl command output
-YT_CMD_PARAMS="--format 'best[ext=mp4]/best' --no-overwrites --restrict-filenames --recode-video mp4 --write-info-json --write-thumbnail";
+# YT_CMD_PARAMS="--format 'best[ext=mp4]/best' --no-overwrites --restrict-filenames --recode-video mp4 --write-info-json --write-thumbnail";
 YT_CMD_OUTPUT="";
 YT_CMD_ERROR=0;
 YT_CMD_ERROR_MSG="";
@@ -132,14 +134,17 @@ function initScript() {
 }
 
 function checkInitialDiskState() {
-    DF_OUTPUT=($(df -ha /home/pi/rpi4mediaserver/ | tail -n 1 | awk '{print $3,$4,$5}'));
-    DISK_INITIAL_USE="${DF_OUTPUT[0]}";
-    DISK_INITIAL_AVAIL="${DF_OUTPUT[1]}";
-    DISK_INITIAL_PERCENT="${DF_OUTPUT[2]}";
+    DF_OUTPUT=($(df -ha /home/pi/rpi4mediaserver/ | tail -n 1 | awk '{print $2,$3,$4,$5}'));
+
+    DISK_SIZE="${DF_OUTPUT[0]}";
+    DISK_INITIAL_USE="${DF_OUTPUT[1]}";
+    DISK_INITIAL_AVAIL="${DF_OUTPUT[2]}";
+    DISK_INITIAL_PERCENT="${DF_OUTPUT[3]}";
 }
 
 function checkFinalDiskState() {
     DF_OUTPUT=($(df -ha /home/pi/rpi4mediaserver/ | tail -n 1 | awk '{print $3,$4,$5}'));
+
     DISK_FINAL_USE="${DF_OUTPUT[0]}";
     DISK_FINAL_AVAIL="${DF_OUTPUT[1]}";
     DISK_FINAL_PERCENT="${DF_OUTPUT[2]}";
@@ -164,14 +169,22 @@ function runYoutubeDl() {
         ARCHIVE_PARAM="${TOKYOMOTION_ARCHIVE}";
     fi
 
-    # TMP will have undesired lines and those will be removed with the sed command:
-    # ^M[download]  10.7% of ~6.52GiB at 27.87KiB/s ETA --:--:--
-    # ^M[download]  92.2% of ~742.28MiB at 136.72KiB/s ETA 00:50
+    # Executing youtube-dl and saving the output in YT_CMD_OUTPUT variable
     YT_CMD_OUTPUT=$(sudo python3 /usr/bin/youtube-dl --format 'best[ext=mp4]/best' --no-overwrites --no-progress --restrict-filenames --recode-video mp4 --write-info-json --write-thumbnail --output "${OUTPUT_PARAM}" --download-archive "${ARCHIVE_PARAM}" ${cookies_parameter} "${MY_URL}" 2>&1);
-    logInfo "${YT_CMD_OUTPUT}";
+
+    # Creating an array out from YT_CMD_OUTPUT
+    OIFS=${IFS};
+    IFS=$'\n';
+    OUTPUT_ARRAY=(${YT_CMD_OUTPUT});
+    IFS=${OIFS};
+
+    for output_line in "${OUTPUT_ARRAY[@]}"
+    do
+        logInfo "  ${output_line}";
+    done
 
     # Determine if any error happened
-    LAST_LINE=$(echo ${YT_CMD_OUTPUT} | tail -n 1);
+    LAST_LINE=$(echo ${YT_CMD_OUTPUT##*$'\n'}); # Removing the longest match till \n
     if [[ ${LAST_LINE} == *"ERROR"* ]]
     then
         YT_CMD_ERROR=1;
@@ -207,7 +220,7 @@ function downloadVideos() {
         then
             ((ERRORS++));
             logError "An error ocurred while downloading video: '${URL}'";
-            logError "  ${YT_CMD_ERROR_MSG}";
+            logError "${YT_CMD_ERROR_MSG}";
             echo ${URL} >> ${SCRIPT_ERRORFILE};
 
             CURRENT_RETRIES=0;
@@ -240,31 +253,41 @@ function printSummary() {
     totalTime=`date -ud "@${TOTAL_TIME}" "+%H:%M:%S"`;
 
     echo " ";
-    echo "  -----------------------------------------------";
-    echo "  SUMMARY";
-    echo "  -----------------------------------------------";
-    echo "  Input URLs:     ${NUMBER_OF_URLS}";
-    echo "  Output folder:  ${OUTPUT_FOLDER}";
-    echo "  -----------------------------------------------";
-    echo "  Success:        ${SUCCESS}";
-    echo "  Errors:         ${ERRORS}";
-    echo "  Retries:        ${RETRIES}";
-    echo "  -----------------------------------------------";
-    echo "  Log File:       ${SCRIPT_LOGFILE}";
-    echo "  Errors File:    ${SCRIPT_ERRORFILE}";
-    echo "  Input backup:   ${INPUT_FILE_BACKUP}";
-    echo "  -----------------------------------------------";
-    echo "  Initial Disk Usage";
-    echo "    Available:    ${DISK_INITIAL_AVAIL}";
-    echo "    Used:         ${DISK_INITIAL_USE}";
-    echo "    Used (%):     ${DISK_INITIAL_PERCENT}";
-    echo "  Final Disk Usage";
-    echo "    Available:    ${DISK_FINAL_AVAIL}";
-    echo "    Used:         ${DISK_FINAL_USE}";
-    echo "    Used (%):     ${DISK_FINAL_PERCENT}";
-    echo "  -----------------------------------------------";
-    echo "  Total time:     ${totalTime}";
-    echo "  -----------------------------------------------";
+    echo "-----------------------------------------------";
+    echo "SUMMARY";
+    echo "-----------------------------------------------";
+    echo "Input URLs:     ${NUMBER_OF_URLS}";
+    echo "Output folder:  ${OUTPUT_FOLDER}";
+    echo "-----------------------------------------------";
+    echo "Success:        ${SUCCESS}";
+    if [[ !${ERRORS} -eq 0 ]]
+    then
+        echo "Errors:         ${ERRORS}";
+    fi
+    if [[ !${RETRIES} -eq 0 ]]
+    then
+        echo "Retries:        ${RETRIES}";
+    fi
+    echo "-----------------------------------------------";
+    echo "Input backup:   ${INPUT_FILE_BACKUP}";
+    echo "Log File:       ${SCRIPT_LOGFILE}";
+    if [[ !${ERRORS} -eq 0 ]]
+    then
+        echo "Errors File:    ${SCRIPT_ERRORFILE}";
+    fi
+    echo "-----------------------------------------------";
+    echo "Disk size:      ${DISK_SIZE}";
+    echo "Initial Disk Usage";
+    echo "  Available:    ${DISK_INITIAL_AVAIL}";
+    echo "  Used:         ${DISK_INITIAL_USE}";
+    echo "  Used (%):     ${DISK_INITIAL_PERCENT}";
+    echo "Final Disk Usage";
+    echo "  Available:    ${DISK_FINAL_AVAIL}";
+    echo "  Used:         ${DISK_FINAL_USE}";
+    echo "  Used (%):     ${DISK_FINAL_PERCENT}";
+    echo "-----------------------------------------------";
+    echo "Total time:     ${totalTime}";
+    echo "-----------------------------------------------";
 }
 
 ################################################
