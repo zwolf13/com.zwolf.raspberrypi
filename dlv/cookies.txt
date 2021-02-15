@@ -22,6 +22,6 @@
 .youtube.com	TRUE	/	FALSE	1611067145	ST-evdck8	itct=CCUQk3UYASITCN7IpuycqO4CFYvnnAodqAoAVQ%3D%3D&csn=MC42OTgzMDEzMzcxMDc5ODQ4&endpoint=%7B%22clickTrackingParams%22%3A%22CCUQk3UYASITCN7IpuycqO4CFYvnnAodqAoAVQ%3D%3D%22%2C%22commandMetadata%22%3A%7B%22webCommandMetadata%22%3A%7B%22url%22%3A%22%2Fresults%3Fsearch_query%3Dsnoring%26sp%3DCAI%25253D%22%2C%22webPageType%22%3A%22WEB_PAGE_TYPE_SEARCH%22%2C%22rootVe%22%3A4724%7D%7D%2C%22searchEndpoint%22%3A%7B%22query%22%3A%22snoring%22%2C%22params%22%3A%22CAI%253D%22%7D%7D
 .youtube.com	TRUE	/	FALSE	1612197624	YTC	exp|1612197624
 #HttpOnly_.youtube.com	TRUE	/	TRUE	0	YSC	mHniRuimf-c
-.youtube.com	TRUE	/	FALSE	1675520135	PREF	f6=400&tz=America.New_York
-.youtube.com	TRUE	/	FALSE	1643984219	SIDCC	AJi4QfEGl4PyHSz-qGgjkK-CWPEHORJZoperrlgh5GG8f6Ysv7DsrIXK5vytFcr68jnDKaSvYA
-#HttpOnly_.youtube.com	TRUE	/	TRUE	1643984219	__Secure-3PSIDCC	AJi4QfGF7WoMRMaFakqaW0fRZG2n5l3caqvW6fdIz_HS0wmwGxPrkqkJhugq_nsVmimEofv0K1g
+.youtube.com	TRUE	/	FALSE	1676295514	PREF	f6=400&tz=America.New_York
+.youtube.com	TRUE	/	FALSE	1644759545	SIDCC	AJi4QfENfeRm62qn9Y3y4jsaKUr8uP-kNq8OPXFCyvxmuOhwRWmPXt9rj2VLShndv9AsKCdFhw
+#HttpOnly_.youtube.com	TRUE	/	TRUE	1644759545	__Secure-3PSIDCC	AJi4QfFTl2MI-fFUgh2EC0S00Re2xHFbwogwwc632JZNIrg0mAnL_tKgSkvj9BSd-yv8zqwS_xo
