@@ -52,7 +52,7 @@ RETRY_ERROR_MSG="ERROR: unable to download video data: <urlopen error [Errno -2]
 # Functions
 
 function printUsage() {
-    echo "  Usage:  ${SCRIPT_NAME} -i INPUT_FILE [-o OUTPUT_FOLDER] [-v] UPDATE";
+    echo "  Usage:  ${SCRIPT_NAME} -i INPUT_FILE [-o OUTPUT_FOLDER] [-v]";
     echo "    INPUT_FILE    - Path to an existing file containing video URLs.";
     echo "    OUTPUT_FOLDER - Optional parameter to a directory to place the files into.";
 }
