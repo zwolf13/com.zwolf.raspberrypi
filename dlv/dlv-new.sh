@@ -16,7 +16,7 @@ URL_REGEX="(https?):\/\/[A-Za-z0-9\+&@#/%?=~_|!:,.;-]*[-A-Za-z0-9\+&@#/%=~_|]";
 # Files
 INPUT_FILE="./urls.txt";
 INPUT_FILE_BACKUP=logs/${SCRIPT_UNIQUE_NAME}.txt;
-OUTPUT_FOLDER="/home/pi/rpi4mediaserver/nnlk-tmp/videos";
+OUTPUT_FOLDER="/srv/dev-disk-by-uuid-4E301C2E301C200F/NNLK_SSD_NEW/ZWOLF_HOME/_Nanalka/new/videos";
 COOKIES_FILE="";
 
 # Archives
@@ -41,7 +41,6 @@ DISK_FINAL_AVAIL="";
 DISK_FINAL_PERCENT="";
 
 # youtube-dl command output
-# YT_CMD_PARAMS="--format 'best[ext=mp4]/best' --no-overwrites --restrict-filenames --recode-video mp4 --write-info-json --write-thumbnail";
 YT_CMD_OUTPUT="";
 YT_CMD_ERROR=0;
 YT_CMD_ERROR_MSG="";
@@ -89,7 +88,7 @@ function verbose() {
 #
 function initScript() {
 
-    # Getting parameters
+    # Getting input parameters
     while getopts 'i:o:c:v' option
     do
         case ${option} in
@@ -106,7 +105,6 @@ function initScript() {
                ;;
         esac
     done
-
     shift "$(($OPTIND - 1))"
 
     # Input file validation
@@ -134,7 +132,7 @@ function initScript() {
 }
 
 function checkInitialDiskState() {
-    DF_OUTPUT=($(df -ha /home/pi/rpi4mediaserver/ | tail -n 1 | awk '{print $2,$3,$4,$5}'));
+    DF_OUTPUT=($(df -ha ${OUTPUT_FOLDER} | tail -n 1 | awk '{print $2,$3,$4,$5}'));
 
     DISK_SIZE="${DF_OUTPUT[0]}";
     DISK_INITIAL_USE="${DF_OUTPUT[1]}";
@@ -143,7 +141,7 @@ function checkInitialDiskState() {
 }
 
 function checkFinalDiskState() {
-    DF_OUTPUT=($(df -ha /home/pi/rpi4mediaserver/ | tail -n 1 | awk '{print $3,$4,$5}'));
+    DF_OUTPUT=($(df -ha ${OUTPUT_FOLDER} | tail -n 1 | awk '{print $3,$4,$5}'));
 
     DISK_FINAL_USE="${DF_OUTPUT[0]}";
     DISK_FINAL_AVAIL="${DF_OUTPUT[1]}";
