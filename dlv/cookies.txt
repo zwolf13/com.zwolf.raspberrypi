@@ -18,10 +18,10 @@
 .youtube.com	TRUE	/	FALSE	1610725113	ST-cv3kr6	itct=COABELUsGAQiEwi8vu3Xop7uAhWKlsEKHe7kDKU%3D&csn=MC40NTU2NDA4ODI0MDMyMTQ2NQ..&endpoint=%7B%22clickTrackingParams%22%3A%22COABELUsGAQiEwi8vu3Xop7uAhWKlsEKHe7kDKU%3D%22%2C%22commandMetadata%22%3A%7B%22webCommandMetadata%22%3A%7B%22url%22%3A%22%2Ffeed%2Fhistory%22%2C%22webPageType%22%3A%22WEB_PAGE_TYPE_BROWSE%22%2C%22rootVe%22%3A6827%2C%22apiUrl%22%3A%22%2Fyoutubei%2Fv1%2Fbrowse%22%7D%7D%2C%22browseEndpoint%22%3A%7B%22browseId%22%3A%22FEhistory%22%7D%7D
 .youtube.com	TRUE	/	FALSE	1611067138	ST-1x711m8	oq&gs_l=youtube.1.0.35i362i39k1l10.0.0.0.4187.1.1.0.0.0.0.0.0..1.0....0...1ac..64.youtube..0.1.167.10...167.8ngMd6d6SY0&itct=CB0Q7VAiEwjMx9TMnKjuAhWps5wKHcv_CMY%3D&csn=MC43MTI2MDc1NjY5OTA4NTEx&endpoint=%7B%22clickTrackingParams%22%3A%22CB0Q7VAiEwjMx9TMnKjuAhWps5wKHcv_CMY%3D%22%2C%22commandMetadata%22%3A%7B%22webCommandMetadata%22%3A%7B%22url%22%3A%22%2Fresults%3Fsearch_query%3Dsnoring%22%2C%22webPageType%22%3A%22WEB_PAGE_TYPE_SEARCH%22%2C%22rootVe%22%3A4724%7D%7D%2C%22searchEndpoint%22%3A%7B%22query%22%3A%22snoring%22%7D%7D
 .youtube.com	TRUE	/	FALSE	1611067145	ST-evdck8	itct=CCUQk3UYASITCN7IpuycqO4CFYvnnAodqAoAVQ%3D%3D&csn=MC42OTgzMDEzMzcxMDc5ODQ4&endpoint=%7B%22clickTrackingParams%22%3A%22CCUQk3UYASITCN7IpuycqO4CFYvnnAodqAoAVQ%3D%3D%22%2C%22commandMetadata%22%3A%7B%22webCommandMetadata%22%3A%7B%22url%22%3A%22%2Fresults%3Fsearch_query%3Dsnoring%26sp%3DCAI%25253D%22%2C%22webPageType%22%3A%22WEB_PAGE_TYPE_SEARCH%22%2C%22rootVe%22%3A4724%7D%7D%2C%22searchEndpoint%22%3A%7B%22query%22%3A%22snoring%22%2C%22params%22%3A%22CAI%253D%22%7D%7D
-.youtube.com	TRUE	/	FALSE	1612197624	YTC	exp|1612197624
-#HttpOnly_.youtube.com	TRUE	/	TRUE	0	YSC	mHniRuimf-c
 .youtube.com	TRUE	/	FALSE	1676487763	SID	6gdC1DqcTsC26Mb5vBlwhiiYMl4ZyQnSYRu58XDvuX4fiiqwKKrYKtrfo_wXOK5pbvXQuw.
 #HttpOnly_.youtube.com	TRUE	/	TRUE	1676487763	__Secure-3PSID	6gdC1DqcTsC26Mb5vBlwhiiYMl4ZyQnSYRu58XDvuX4fiiqw5aTSlPDH61OFnni0MZubeg.
-.youtube.com	TRUE	/	FALSE	1676584639	PREF	f6=400&tz=America.New_York
-.youtube.com	TRUE	/	FALSE	1645048664	SIDCC	AJi4QfGW0U9hTK3JVFWaY-zz5pHMEEsVny600rF5tb0w6KygxZi7lXYutDCPIy1kbNX_z8Up2A
-#HttpOnly_.youtube.com	TRUE	/	TRUE	1645048664	__Secure-3PSIDCC	AJi4QfF_hfgeP4ja1HSrNwmCc6TzGmk_ng87h_TQcAE9vDcPHNQIRzu22vNuZAyUAdmeYikLWrg
+#HttpOnly_.youtube.com	TRUE	/	TRUE	0	YSC	mHniRuimf-c
+.youtube.com	TRUE	/	TRUE	1635818995	PREF	f6=400&tz=America.New_York
+.youtube.com	TRUE	/	FALSE	1614781616	YTC	rel|1614781616
+.youtube.com	TRUE	/	FALSE	1646317021	SIDCC	AJi4QfE9ro0pW-OB4ODejSZbFGNmBPmGD4rL8Z0otM66L_PmdWcVZzXJywHW-k0-7ocvQpQScg
+#HttpOnly_.youtube.com	TRUE	/	TRUE	1646317021	__Secure-3PSIDCC	AJi4QfHjkf5pIl4QGWnH8IHk9MzWT7LAEAvFfkcDo2JiYBDNw5Hdq4TFI5ZJsVt-q1OqjXBrX-A
