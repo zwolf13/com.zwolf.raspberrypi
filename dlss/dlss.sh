@@ -4,19 +4,19 @@
 SCRIPT_NAME=${0##*/};
 SCRIPT_TIME=$(date "+%Y%m%d_%H%M%S");
 SCRIPT_UNIQUE_NAME=${SCRIPT_NAME%.sh}.${SCRIPT_TIME};
-SCRIPT_LOGFILE=logs/${SCRIPT_UNIQUE_NAME}.log;
-SCRIPT_ERRORFILE=logs/${SCRIPT_UNIQUE_NAME}.err;
+SCRIPT_LOGFILE=/home/pi/git/com.zwolf.raspberrypi/dlss/logs/${SCRIPT_UNIQUE_NAME}.log;
+SCRIPT_ERRORFILE=/home/pi/git/com.zwolf.raspberrypi/dlss/logs/${SCRIPT_UNIQUE_NAME}.err;
 SCRIPT_EXECUTOR=$(whoami);
 VERBOSE="false";
 
 URL_REGEX="^\(https\?\):\/\/[A-Za-z0-9\+&@#/%?=~_|\!:,.;-]*";
 COMMENT_REGEX="^#";
-DEFAULT_INPUT="/home/pi/screenshot-dl/urls.txt";
+DEFAULT_INPUT="/home/pi/git/com.zwolf.raspberrypi/dlss/urls.txt";
 
 INPUT_FILE="";
 INPUT_FILE_BACKUP=logs/${SCRIPT_UNIQUE_NAME}.txt;
 URLS=();
-OUTPUT_FOLDER="/home/pi/rpi4mediaserver/nnlk-tmp/screenshots";
+OUTPUT_FOLDER="/srv/dev-disk-by-uuid-4E301C2E301C200F/NNLK_SSD_NEW/ZWOLF_HOME/_Nanalka/new/dlss";
 NUMBER_OF_URLS="";
 
 TOTAL_TIME="";
