@@ -16,7 +16,7 @@ URL_REGEX="(https?):\/\/[A-Za-z0-9\+&@#/%?=~_|!:,.;-]*[-A-Za-z0-9\+&@#/%=~_|]";
 # Files
 INPUT_FILE="./urls.txt";
 INPUT_FILE_BACKUP=logs/${SCRIPT_UNIQUE_NAME}.txt;
-OUTPUT_FOLDER="/srv/dev-disk-by-uuid-4E301C2E301C200F/NNLK_SSD_NEW/ZWOLF_HOME/_Nanalka/new/videos";
+OUTPUT_FOLDER="/srv/dev-disk-by-uuid-36ECD2FDECD2B5F9/NNLK_SSD_NEW/ZWOLF_HOME/_Nanalka/new/videos";
 COOKIES_FILE="";
 
 # Archives

@@ -16,7 +16,7 @@ DEFAULT_INPUT="/home/pi/git/com.zwolf.raspberrypi/dlss/urls.txt";
 INPUT_FILE="";
 INPUT_FILE_BACKUP=logs/${SCRIPT_UNIQUE_NAME}.txt;
 URLS=();
-OUTPUT_FOLDER="/srv/dev-disk-by-uuid-4E301C2E301C200F/NNLK_SSD_NEW/ZWOLF_HOME/_Nanalka/new/dlss";
+OUTPUT_FOLDER="/srv/dev-disk-by-uuid-36ECD2FDECD2B5F9/NNLK_NEW/ZWOLF_HOME/_Nanalka/new/dlss";
 NUMBER_OF_URLS="";
 
 TOTAL_TIME="";
