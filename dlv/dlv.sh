@@ -98,13 +98,19 @@ function dlvStatus() {
     echo "Is youtube-dl running: ${isYtdlRuning}";
     echo -e "\n";
     echo "Latest LOG file: ${latest_log}";
+    echo "### LOG ###";
     tail ${latest_log};
+    echo "### LOG ###";
     echo -e "\n";
     echo "Latest TXT file: ${latest_txt}";
+    echo "### TXT ###";
     tail ${latest_txt};
+    echo "### TXT ###";
     echo -e "\n";
     echo "Latest ERR file: ${latest_err}";
+    echo "### ERR ###";
     tail ${latest_err};
+    echo "### ERR ###";
 }
 
 #

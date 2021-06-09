@@ -46,9 +46,13 @@ public class DlvWebController {
     }
 
     @GetMapping(path = "/status", produces = "text/plain")
-    public String getDlvStatus() {
-        String response = "test-response";
-        return response;
+    public String getDlvStatus() throws Exception {
+        String dlvCommand = DLV_CMD + " -s";
+        System.out.println("EXECUTING: '" + dlvCommand + "'");
+        Process process = Runtime.getRuntime().exec(dlvCommand);
+        String stdout = IOUtils.toString(process.getInputStream(), Charset.defaultCharset());
+
+        return stdout;
     }
 
     @GetMapping(path = "/search", produces = "text/plain")
