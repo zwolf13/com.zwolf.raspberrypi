@@ -4,8 +4,9 @@
 SCRIPT_NAME=${0##*/};
 SCRIPT_TIME=$(date "+%Y%m%d_%H%M%S");
 SCRIPT_UNIQUE_NAME=${SCRIPT_NAME%.sh}.${SCRIPT_TIME};
-SCRIPT_LOGFILE=logs/${SCRIPT_UNIQUE_NAME}.log;
-SCRIPT_ERRORFILE=logs/${SCRIPT_UNIQUE_NAME}.err;
+SCRIPT_LOCATION=/home/pi/git/com.zwolf.raspberrypi/dlv;
+SCRIPT_LOGFILE=${SCRIPT_LOCATION}/logs/${SCRIPT_UNIQUE_NAME}.log;
+SCRIPT_ERRORFILE=${SCRIPT_LOCATION}/logs/${SCRIPT_UNIQUE_NAME}.err;
 SCRIPT_EXECUTOR=$(whoami);
 VERBOSE="false";
 
@@ -14,15 +15,13 @@ COMMENT_REGEX="^#";
 URL_REGEX="(https?):\/\/[A-Za-z0-9\+&@#/%?=~_|!:,.;-]*[-A-Za-z0-9\+&@#/%=~_|]";
 
 # Files
-INPUT_FILE="./urls.txt";
-INPUT_FILE_BACKUP=logs/${SCRIPT_UNIQUE_NAME}.txt;
+INPUT_FILE="${SCRIPT_LOCATION}//urls.txt";
+INPUT_FILE_BACKUP=${SCRIPT_LOCATION}/logs/${SCRIPT_UNIQUE_NAME}.txt;
 OUTPUT_FOLDER="/srv/dev-disk-by-uuid-36ECD2FDECD2B5F9/NNLK_NEW/ZWOLF_HOME/_Nanalka/new/videos";
 COOKIES_FILE="";
 
 # Archives
-DEFAULT_ARCHIVE="archive.txt";
-TOKYOMOTION_ARCHIVE="archive-tokyomotion.txt";
-AFREECATV_ARCHIVE="archive-afreecatv.txt";
+DEFAULT_ARCHIVE="${SCRIPT_LOCATION}/archive.txt";
 
 # Statistics
 NUMBER_OF_URLS="";
@@ -158,13 +157,7 @@ function runYoutubeDl() {
     if [[ "${COOKIES_FILE}" != "" ]]
     then
         verbose "Using cookies: ${COOKIES_FILE}";
-        cookies_parameter="--cookies \"${COOKIES_FILE}\"";
-    fi
-
-    # Checking special extractors
-    if [[ ${MY_URL} == *"tokyomotion"* ]]
-    then
-        ARCHIVE_PARAM="${TOKYOMOTION_ARCHIVE}";
+        cookies_parameter="--cookies ${COOKIES_FILE}";
     fi
 
     # Executing youtube-dl and saving the output in YT_CMD_OUTPUT variable

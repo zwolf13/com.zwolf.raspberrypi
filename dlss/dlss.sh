@@ -136,6 +136,7 @@ function takeScreenshots() {
         WIDTH=${array[1]};
         HEIGHT=${array[2]};
         FILE_NAME=${array[3]};
+        FILE_PATH=${array[4]};
 
         OUTPUT_FILE="${FILE_NAME}-${SCRIPT_TIME}.png";
 
@@ -143,7 +144,7 @@ function takeScreenshots() {
         verbose "  ${WIDTH} x ${HEIGHT} => ${OUTPUT_FILE}";
         chromium-browser --window-size="${WIDTH},${HEIGHT}" --screenshot --hide-scrollbars --headless "${URL}" > /dev/null 1>/dev/null 2>/dev/null
         chmod 777 screenshot.png;
-        sudo mv "screenshot.png" "${OUTPUT_FOLDER}/${OUTPUT_FILE}";
+        sudo mv "screenshot.png" "${OUTPUT_FOLDER}/${FILE_PATH}/${OUTPUT_FILE}";
     done
 
     end=`date "+%s"`;
