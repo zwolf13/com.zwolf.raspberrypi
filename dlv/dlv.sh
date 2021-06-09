@@ -82,13 +82,38 @@ function verbose() {
     fi
 }
 
+function dlvStatus() {
+    process=$(ps aux | grep -e "sudo python3 /usr/bin/youtube-dl" | grep -v "grep");
+    isYtdlRuning="NO";
+
+    if [[ "" != ${process} ]]
+    then
+        isYtdlRuning="YES";
+    fi
+
+    latest_log=$(ls -t ${SCRIPT_LOCATION}/logs/*.log | head -n 1);
+    latest_txt=$(ls -t ${SCRIPT_LOCATION}/logs/*.txt | head -n 1);
+    latest_err=$(ls -t ${SCRIPT_LOCATION}/logs/*.err | head -n 1);
+
+    echo "Is youtube-dl running: ${isYtdlRuning}";
+    echo -e "\n";
+    echo "Latest LOG file: ${latest_log}";
+    tail ${latest_log};
+    echo -e "\n";
+    echo "Latest TXT file: ${latest_txt}";
+    tail ${latest_txt};
+    echo -e "\n";
+    echo "Latest ERR file: ${latest_err}";
+    tail ${latest_err};
+}
+
 #
 # Sets variables and performs input parameter validations
 #
 function initScript() {
 
     # Getting input parameters
-    while getopts 'i:o:c:v' option
+    while getopts 'i:o:c:v:s' option
     do
         case ${option} in
             i) INPUT_FILE="${OPTARG}";
@@ -98,6 +123,9 @@ function initScript() {
             c) COOKIES_FILE="${OPTARG}";
                ;;
             v) VERBOSE="true";
+               ;;
+            s) dlvStatus;
+               exit 0;
                ;;
             ?) printUsage;
                exit 1;

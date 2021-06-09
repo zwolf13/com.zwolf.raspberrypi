@@ -42,7 +42,7 @@ public class DlvWebController {
         }
 
         System.out.println("EXECUTING: '" + dlvCommand + "'");
-        // Process process = Runtime.getRuntime().exec(dlvCommand);
+        Process process = Runtime.getRuntime().exec(dlvCommand);
     }
 
     @GetMapping(path = "/status", produces = "text/plain")
@@ -57,17 +57,21 @@ public class DlvWebController {
         System.out.println("EXECUTING: '" + vsearchCmd + "'");
         Process process = Runtime.getRuntime().exec(vsearchCmd);
         String stdout = IOUtils.toString(process.getInputStream(), Charset.defaultCharset());
-//        String stderr = IOUtils.toString(process.getErrorStream(), Charset.defaultCharset());
+        String stderr = IOUtils.toString(process.getErrorStream(), Charset.defaultCharset());
 
         StringBuffer buffer = new StringBuffer();
-
-        System.out.println("DEBUG:");
-        System.out.println(stdout);
 
         if (stdout == null || stdout.equals("")) {
             buffer.append("<No results>");
         } else {
             buffer.append(stdout);
+        }
+
+        if (stderr != null && !stderr.equals("")) {
+            buffer.append("\n");
+            buffer.append("ERRORS");
+            buffer.append("\n");
+            buffer.append(stderr);
         }
 
         return buffer.toString();
