@@ -99,7 +99,7 @@ function dlvStatus() {
     echo -e "\n";
     echo "Latest LOG file: ${latest_log}";
     echo "### LOG ###";
-    tail ${latest_log};
+    tail -n 30 ${latest_log};
     echo "### LOG ###";
     echo -e "\n";
     echo "Latest TXT file: ${latest_txt}";
@@ -277,42 +277,42 @@ function downloadVideos() {
 function printSummary() {
     totalTime=`date -ud "@${TOTAL_TIME}" "+%H:%M:%S"`;
 
-    echo " ";
-    echo "-----------------------------------------------";
-    echo "SUMMARY";
-    echo "-----------------------------------------------";
-    echo "Input URLs:     ${NUMBER_OF_URLS}";
-    echo "Output folder:  ${OUTPUT_FOLDER}";
-    echo "-----------------------------------------------";
-    echo "Success:        ${SUCCESS}";
+    logInfo " ";
+    logInfo "-----------------------------------------------";
+    logInfo "SUMMARY";
+    logInfo "-----------------------------------------------";
+    logInfo "Input URLs:     ${NUMBER_OF_URLS}";
+    logInfo "Output folder:  ${OUTPUT_FOLDER}";
+    logInfo "-----------------------------------------------";
+    logInfo "Success:        ${SUCCESS}";
     if [[ !${ERRORS} -eq 0 ]]
     then
-        echo "Errors:         ${ERRORS}";
+        logInfo "Errors:         ${ERRORS}";
     fi
     if [[ !${RETRIES} -eq 0 ]]
     then
-        echo "Retries:        ${RETRIES}";
+        logInfo "Retries:        ${RETRIES}";
     fi
-    echo "-----------------------------------------------";
-    echo "Input backup:   ${INPUT_FILE_BACKUP}";
-    echo "Log File:       ${SCRIPT_LOGFILE}";
+    logInfo "-----------------------------------------------";
+    logInfo "Input backup:   ${INPUT_FILE_BACKUP}";
+    logInfo "Log File:       ${SCRIPT_LOGFILE}";
     if [[ !${ERRORS} -eq 0 ]]
     then
-        echo "Errors File:    ${SCRIPT_ERRORFILE}";
+        logInfo "Errors File:    ${SCRIPT_ERRORFILE}";
     fi
-    echo "-----------------------------------------------";
-    echo "Disk size:      ${DISK_SIZE}";
-    echo "Initial Disk Usage";
-    echo "  Available:    ${DISK_INITIAL_AVAIL}";
-    echo "  Used:         ${DISK_INITIAL_USE}";
-    echo "  Used (%):     ${DISK_INITIAL_PERCENT}";
-    echo "Final Disk Usage";
-    echo "  Available:    ${DISK_FINAL_AVAIL}";
-    echo "  Used:         ${DISK_FINAL_USE}";
-    echo "  Used (%):     ${DISK_FINAL_PERCENT}";
-    echo "-----------------------------------------------";
-    echo "Total time:     ${totalTime}";
-    echo "-----------------------------------------------";
+    logInfo "-----------------------------------------------";
+    logInfo "Disk size:      ${DISK_SIZE}";
+    logInfo "Initial Disk Usage";
+    logInfo "  Available:    ${DISK_INITIAL_AVAIL}";
+    logInfo "  Used:         ${DISK_INITIAL_USE}";
+    logInfo "  Used (%):     ${DISK_INITIAL_PERCENT}";
+    logInfo "Final Disk Usage";
+    logInfo "  Available:    ${DISK_FINAL_AVAIL}";
+    logInfo "  Used:         ${DISK_FINAL_USE}";
+    logInfo "  Used (%):     ${DISK_FINAL_PERCENT}";
+    logInfo "-----------------------------------------------";
+    logInfo "Total time:     ${totalTime}";
+    logInfo "-----------------------------------------------";
 }
 
 ################################################
