@@ -17,7 +17,7 @@ URL_REGEX="(https?):\/\/[A-Za-z0-9\+&@#/%?=~_|!:,.;-]*[-A-Za-z0-9\+&@#/%=~_|]";
 # Files
 INPUT_FILE="${SCRIPT_LOCATION}//urls.txt";
 INPUT_FILE_BACKUP=${SCRIPT_LOCATION}/logs/${SCRIPT_UNIQUE_NAME}.txt;
-OUTPUT_FOLDER="/srv/dev-disk-by-uuid-36ECD2FDECD2B5F9/NNLK_NEW/ZWOLF_HOME/_Nanalka/new/videos";
+OUTPUT_FOLDER="/srv/dev-disk-by-uuid-FE5A2CD05A2C880B/NNLK_NEW/ZWOLF_HOME/_Nanalka/new/videos";
 COOKIES_FILE="";
 
 # Archives
@@ -31,6 +31,7 @@ SUCCESS=0;
 RETRIES=0;
 
 # Disk usage
+MIN_FREE_SPACE=40000000;
 DISK_SIZE="";
 DISK_INITIAL_USE="";
 DISK_INITIAL_AVAIL="";
@@ -85,32 +86,37 @@ function verbose() {
 function dlvStatus() {
     process=$(ps aux | grep -e "sudo python3 /usr/bin/youtube-dl" | grep -v "grep");
     isYtdlRuning="NO";
+    log_tail=30;
 
     if [[ "" != ${process} ]]
     then
         isYtdlRuning="YES";
+        log_tail=5;
     fi
 
     latest_log=$(ls -t ${SCRIPT_LOCATION}/logs/*.log | head -n 1);
     latest_txt=$(ls -t ${SCRIPT_LOCATION}/logs/*.txt | head -n 1);
     latest_err=$(ls -t ${SCRIPT_LOCATION}/logs/*.err | head -n 1);
 
+    log_entries=$(cat ${latest_log} | wc -l);
+    txt_entries=$(cat ${latest_txt} | wc -l);
+    err_entries=$(cat ${latest_err} | wc -l);
+
     echo "Is youtube-dl running: ${isYtdlRuning}";
     echo -e "\n";
-    echo "Latest LOG file: ${latest_log}";
-    echo "### LOG ###";
-    tail -n 30 ${latest_log};
-    echo "### LOG ###";
+    echo "${log_entries} entries in LOG file: ${latest_log}";
+    echo "###### LOG ######";
+    tail -n ${log_tail} ${latest_log};
+    echo "###### LOG ######";
     echo -e "\n";
-    echo "Latest TXT file: ${latest_txt}";
-    echo "### TXT ###";
-    tail ${latest_txt};
-    echo "### TXT ###";
+    echo "${txt_entries} entries in TXT file: ${latest_txt}";
+    echo "Latest TXT entries: ${txt_entries}";
     echo -e "\n";
-    echo "Latest ERR file: ${latest_err}";
-    echo "### ERR ###";
-    tail ${latest_err};
-    echo "### ERR ###";
+    echo "${err_entries} entries in ERR file: ${latest_err}";
+    if [[ "0" != ${err_entries} ]]
+    then
+        tail ${latest_err};
+    fi
 }
 
 #
@@ -226,6 +232,16 @@ function downloadVideos() {
 
     while read URL
     do
+        # Disk free space check
+        free_space=$(df ${OUTPUT_FOLDER} | tail -n 1 | awk '{print $4}');
+        if [[ ${free_space} -lt ${MIN_FREE_SPACE} ]]
+        then
+            logError "Not enough free space to download video: ${free_space} bytes";
+            checkFinalDiskState;
+            printSummary;
+            exit 1;
+        fi
+
         ((counter++));
         logInfo "(${counter} / ${NUMBER_OF_URLS}) Working on: '${URL}'...";
 
