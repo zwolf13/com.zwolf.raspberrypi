@@ -16,7 +16,7 @@ DEFAULT_INPUT="/home/pi/git/com.zwolf.raspberrypi/dlss/urls.txt";
 INPUT_FILE="";
 INPUT_FILE_BACKUP=logs/${SCRIPT_UNIQUE_NAME}.txt;
 URLS=();
-OUTPUT_FOLDER="/srv/dev-disk-by-uuid-4E301C2E301C200F/NNLK_SSD_NEW/ZWOLF_HOME/_Nanalka/new/dlss";
+OUTPUT_FOLDER="/srv/dev-disk-by-uuid-FE5A2CD05A2C880B/NNLK_NEW/ZWOLF_HOME/_Nanalka/new/dlss";
 NUMBER_OF_URLS="";
 
 TOTAL_TIME="";
@@ -136,6 +136,7 @@ function takeScreenshots() {
         WIDTH=${array[1]};
         HEIGHT=${array[2]};
         FILE_NAME=${array[3]};
+        FILE_PATH=${array[4]};
 
         OUTPUT_FILE="${FILE_NAME}-${SCRIPT_TIME}.png";
 
@@ -143,7 +144,13 @@ function takeScreenshots() {
         verbose "  ${WIDTH} x ${HEIGHT} => ${OUTPUT_FILE}";
         chromium-browser --window-size="${WIDTH},${HEIGHT}" --screenshot --hide-scrollbars --headless "${URL}" > /dev/null 1>/dev/null 2>/dev/null
         chmod 777 screenshot.png;
-        sudo mv "screenshot.png" "${OUTPUT_FOLDER}/${OUTPUT_FILE}";
+
+        if [ ! -d "${OUTPUT_FOLDER}/${FILE_PATH}" ]
+        then
+            mkdir -p "${OUTPUT_FOLDER}/${FILE_PATH}";
+        fi
+
+        sudo mv "screenshot.png" "${OUTPUT_FOLDER}/${FILE_PATH}/${OUTPUT_FILE}";
     done
 
     end=`date "+%s"`;
