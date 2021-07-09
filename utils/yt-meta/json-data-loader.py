@@ -57,7 +57,7 @@ for my_file in listdir(BASE_PATH):
                 (id, extractor, extractor_key, channel_id, channel_url, comments, description, display_id, duration, title, fulltitle, tags, thumbnail, ytdl_timestamp, upload_date, uploader, uploader_id, uploader_url, webpage_url, webpage_url_basename, url, height, width, json.dumps(data))
             );
             connection.commit();
-        except mariadb.Error as e: 
+        except mariadb.Error as e:
             print(f"Error with id {id}: {e}");
             sys.exit(1);
 

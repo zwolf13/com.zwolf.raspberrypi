@@ -5,6 +5,7 @@ import os.path
 import urllib.parse
 import keyring
 import sys
+import math
 from Crypto.Cipher import AES
 from Crypto.Protocol.KDF import PBKDF2
 from datetime import datetime, timedelta
@@ -12,8 +13,9 @@ from datetime import datetime, timedelta
 def convertDateFromWebkit(webkit_timestamp):
     epoch_start = datetime(1601, 1, 1)
     delta = timedelta(microseconds = int(webkit_timestamp))
+    full_date = epoch_start + delta
 
-    return epoch_start + delta
+    return math.floor(datetime.timestamp(full_date))
 
 def chrome_decrypt(encrypted_value, key=None):
     iv = b' ' * 16
@@ -51,6 +53,10 @@ def getChromiumCookies(url):
 
     cookies = {}
 
+    print("# Netscape HTTP Cookie File");
+    print("# https://curl.haxx.se/rfc/cookie_spec.html");
+    print("# This is a generated file! Do not edit.\n");
+
     with connection:
         cookies_tmp = []
 
@@ -62,7 +68,7 @@ def getChromiumCookies(url):
             decrypted_value = value if value or (encrypted_value[:3] != b'v10') else chrome_decrypt(encrypted_value, key=key)
 
             cookies_tmp.append((domain, is_host_only, path, secure, expiration, name, decrypted_value))
-            print(f"{domain},{is_host_only},{path},{secure},{expiration},{name},{decrypted_value}")
+            print(f"{domain}\t{is_host_only}\t{path}\t{secure}\t{expiration}\t{name}\t{decrypted_value}")
 
 #        cookies.update(cookies_tmp)
 
