@@ -20,7 +20,7 @@ do
         filename="${FILE%.*} - cut-${index}.${ext}";
 
         echo "Cutting range from ${start} to ${end}...";
-        ffmpeg -n -hide_banner -loglevel quiet  -i "${FILE}" -ss "${start}" -to "${end}" -c:v copy -c:a copy "${filename}"
+        ffmpeg -n -hide_banner -loglevel quiet -i "${FILE}" -ss "${start}" -to "${end}" -c:v copy -c:a copy "${filename}";
     done
 
 done < ${INPUT_FILE}
