@@ -7,14 +7,17 @@ http://v.afree.ca/ST/42069844
 http://v.afree.ca/ST/42108264
 http://v.afree.ca/ST/42174252
 http://v.afree.ca/ST/44093116
+http://v.afree.ca/ST/44134285
 http://v.afree.ca/ST/44607713
 http://v.afree.ca/ST/44696468
 http://v.afree.ca/ST/45339611
 http://v.afree.ca/ST/45792959
 http://v.afree.ca/ST/46277081
+http://v.afree.ca/ST/48008240
 http://v.afree.ca/ST/48254190
 http://v.afree.ca/ST/48560930
 http://v.afree.ca/ST/49029551
+http://v.afree.ca/ST/49079382
 http://v.afree.ca/ST/49585375
 http://v.afree.ca/ST/49642589
 http://v.afree.ca/ST/49669803
@@ -28,6 +31,7 @@ http://v.afree.ca/ST/50098220
 http://v.afree.ca/ST/50127133
 http://v.afree.ca/ST/50216469
 http://v.afree.ca/ST/50331712
+http://v.afree.ca/ST/50416390
 http://v.afree.ca/ST/50532892
 http://v.afree.ca/ST/50735508
 http://v.afree.ca/ST/50736385
@@ -50,6 +54,7 @@ http://v.afree.ca/ST/54649266
 http://v.afree.ca/ST/54806999
 http://v.afree.ca/ST/54811057
 http://v.afree.ca/ST/56091934
+http://v.afree.ca/ST/56251493
 http://v.afree.ca/ST/56547470
 http://v.afree.ca/ST/56886047
 http://v.afree.ca/ST/57255518
@@ -80,6 +85,7 @@ http://v.afree.ca/ST/62003523
 http://v.afree.ca/ST/62294361
 http://v.afree.ca/ST/62425383
 http://v.afree.ca/ST/62500726
+http://v.afree.ca/ST/62540917
 http://v.afree.ca/ST/62806755
 http://v.afree.ca/ST/63081182
 http://v.afree.ca/ST/63124618
@@ -152,14 +158,17 @@ http://v.afree.ca/ST/67567073
 http://v.afree.ca/ST/67589252
 http://v.afree.ca/ST/67610102
 http://v.afree.ca/ST/67682587
+http://v.afree.ca/ST/67933381
 http://v.afree.ca/ST/67973147
 http://v.afree.ca/ST/67981173
+http://v.afree.ca/ST/67984063
 http://v.afree.ca/ST/68030399
 http://v.afree.ca/ST/68074162
 http://v.afree.ca/ST/68121194
 http://v.afree.ca/ST/68121283
 http://v.afree.ca/ST/68122207
 http://v.afree.ca/ST/68132261
+http://v.afree.ca/ST/68134639
 http://v.afree.ca/ST/68221362
 http://v.afree.ca/ST/68235481
 http://v.afree.ca/ST/68359565
@@ -170,6 +179,7 @@ http://v.afree.ca/ST/68622959
 http://v.afree.ca/ST/68643218
 http://v.afree.ca/ST/68943408
 http://v.afree.ca/ST/68946388
+http://v.afree.ca/ST/68984187
 http://v.afree.ca/ST/69039284
 http://v.afree.ca/ST/69134166
 http://v.afree.ca/ST/69263979
@@ -196,6 +206,7 @@ http://v.afree.ca/ST/70402375
 http://v.afree.ca/ST/70422652
 http://v.afree.ca/ST/70564387
 http://v.afree.ca/ST/70659796
+http://v.afree.ca/ST/70914754
 http://v.afree.ca/ST/70917970
 http://v.afree.ca/ST/71002297
 http://v.afree.ca/ST/71005280
@@ -232,6 +243,7 @@ http://v.afree.ca/ST/72017101
 http://v.afree.ca/ST/72051519
 http://v.afree.ca/ST/72063775
 http://v.afree.ca/ST/72152406
+http://v.afree.ca/ST/72193136
 http://v.afree.ca/ST/72198371
 http://v.afree.ca/ST/72407782
 http://v.afree.ca/ST/72489319
@@ -240,6 +252,7 @@ http://v.afree.ca/ST/72529545
 http://v.afree.ca/ST/72591196
 http://v.afree.ca/ST/72754152
 http://v.afree.ca/ST/72759084
+http://v.afree.ca/ST/72798426
 http://v.afree.ca/ST/72842903
 http://v.afree.ca/ST/72843841
 http://v.afree.ca/ST/72925577
@@ -256,5 +269,13 @@ http://v.afree.ca/ST/73766312
 http://v.afree.ca/ST/73769543
 http://v.afree.ca/ST/73856560
 http://v.afree.ca/ST/73886061
+http://v.afree.ca/ST/73969004
+http://v.afree.ca/ST/74059495
 http://v.afree.ca/ST/74181881
 http://v.afree.ca/ST/74470562
+http://v.afree.ca/ST/74609219
+http://v.afree.ca/ST/74641878
+http://v.afree.ca/ST/74645420
+http://v.afree.ca/ST/74939284
+http://v.afree.ca/ST/74980642
+http://v.afree.ca/ST/75021240
