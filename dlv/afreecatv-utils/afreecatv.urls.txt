@@ -159,6 +159,7 @@ http://v.afree.ca/ST/66578198
 http://v.afree.ca/ST/66605196
 http://v.afree.ca/ST/66617074
 http://v.afree.ca/ST/66773851
+http://v.afree.ca/ST/66822969
 http://v.afree.ca/ST/66877184
 http://v.afree.ca/ST/66925681
 http://v.afree.ca/ST/67019883
@@ -175,6 +176,7 @@ http://v.afree.ca/ST/67567073
 http://v.afree.ca/ST/67589252
 http://v.afree.ca/ST/67610102
 http://v.afree.ca/ST/67682587
+http://v.afree.ca/ST/67754813
 http://v.afree.ca/ST/67933381
 http://v.afree.ca/ST/67973147
 http://v.afree.ca/ST/67981173
@@ -205,6 +207,7 @@ http://v.afree.ca/ST/68946388
 http://v.afree.ca/ST/68984187
 http://v.afree.ca/ST/69039284
 http://v.afree.ca/ST/69134166
+http://v.afree.ca/ST/69169506
 http://v.afree.ca/ST/69209884
 http://v.afree.ca/ST/69263979
 http://v.afree.ca/ST/69490997
@@ -305,11 +308,13 @@ http://v.afree.ca/ST/73886061
 http://v.afree.ca/ST/73969004
 http://v.afree.ca/ST/74110106
 http://v.afree.ca/ST/74111849
-http://v.afree.ca/ST/74135749
+http://v.afree.ca/ST/74136430
 http://v.afree.ca/ST/74181881
 http://v.afree.ca/ST/74470562
 http://v.afree.ca/ST/74645420
+http://v.afree.ca/ST/74683449
 http://v.afree.ca/ST/74770042
+http://v.afree.ca/ST/74852506
 http://v.afree.ca/ST/74939284
 http://v.afree.ca/ST/74980642
 http://v.afree.ca/ST/75021240
@@ -318,6 +323,7 @@ http://v.afree.ca/ST/75118613
 http://v.afree.ca/ST/75253983
 http://v.afree.ca/ST/75311129
 http://v.afree.ca/ST/75400959
+http://v.afree.ca/ST/75438826
 http://v.afree.ca/ST/75526282
 http://v.afree.ca/ST/75565099
 http://v.afree.ca/ST/75600350
@@ -325,7 +331,6 @@ http://v.afree.ca/ST/75656763
 http://v.afree.ca/ST/75657945
 http://v.afree.ca/ST/75765419
 http://v.afree.ca/ST/75808860
-http://v.afree.ca/ST/75936256
 http://v.afree.ca/ST/76069222
 http://v.afree.ca/ST/76102205
 http://v.afree.ca/ST/76111516
@@ -335,6 +340,7 @@ http://v.afree.ca/ST/76398034
 http://v.afree.ca/ST/76438722
 http://v.afree.ca/ST/76689532
 http://v.afree.ca/ST/76730698
+http://v.afree.ca/ST/76732068
 http://v.afree.ca/ST/76852635
 http://v.afree.ca/ST/76852722
 http://v.afree.ca/ST/76984237
@@ -351,3 +357,11 @@ http://v.afree.ca/ST/77605370
 http://v.afree.ca/ST/77729876
 http://v.afree.ca/ST/77730405
 http://v.afree.ca/ST/77773180
+http://v.afree.ca/ST/77974256
+http://v.afree.ca/ST/78253179
+http://v.afree.ca/ST/78588770
+http://v.afree.ca/ST/78630452
+http://v.afree.ca/ST/78668828
+http://v.afree.ca/ST/78707882
+http://v.afree.ca/ST/79255028
+http://v.afree.ca/ST/79407675
