@@ -1032,3 +1032,584 @@ EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh ronquidos'
 2021-11-30 13:39:50.977  INFO 7061 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
 2021-11-30 13:39:52.064  INFO 7061 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
 2021-11-30 13:39:53.980  INFO 7061 --- [           main] com.zwolf.dlv.RestServiceApplication     : Started RestServiceApplication in 15.383 seconds (JVM running for 18.436)
+2021-11-30 13:57:33.888  INFO 7061 --- [nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-30 13:57:33.889  INFO 7061 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-30 13:57:33.892  INFO 7061 --- [nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-11-30 14:21:41.793  INFO 7061 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2021-11-30 16:57:49.289  INFO 2090 --- [           main] com.zwolf.dlv.RestServiceApplication     : Starting RestServiceApplication v0.1.0 using Java 11.0.9.1 on rpi4-nnlk with PID 2090 (/home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/target/youtube-dl-web-0.1.0.jar started by pi in /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv)
+2021-11-30 16:57:49.303  INFO 2090 --- [           main] com.zwolf.dlv.RestServiceApplication     : No active profile set, falling back to default profiles: default
+2021-11-30 16:57:56.078  INFO 2090 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-30 16:57:56.140  INFO 2090 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-30 16:57:56.140  INFO 2090 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-11-30 16:57:56.442  INFO 2090 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-30 16:57:56.443  INFO 2090 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6860 ms
+2021-11-30 16:57:59.163  INFO 2090 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-30 16:58:00.279  INFO 2090 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-30 16:58:02.175  INFO 2090 --- [           main] com.zwolf.dlv.RestServiceApplication     : Started RestServiceApplication in 15.612 seconds (JVM running for 18.742)
+2021-11-30 17:07:47.121  INFO 2090 --- [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-11-30 17:07:47.122  INFO 2090 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-11-30 17:07:47.125  INFO 2090 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.11.30-17.08.10.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 0609'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 1446931'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh mqq7nPNkdrI'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.11.30-17.24.13.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh v2r8790'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh uxprl37'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 3t4wk'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 3hq3y'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh yhx3'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 32020098'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh Ziva'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.02-09.35.43.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.02-09.37.42.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh K0UE5boOtB6'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh Bukkake'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.02-11.16.11.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+2021-12-02 18:12:01.056  INFO 2090 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2021-12-03 16:07:35.610  INFO 9857 --- [           main] com.zwolf.dlv.RestServiceApplication     : Starting RestServiceApplication v0.1.0 using Java 11.0.9.1 on rpi4-nnlk with PID 9857 (/home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/target/youtube-dl-web-0.1.0.jar started by pi in /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv)
+2021-12-03 16:07:35.623  INFO 9857 --- [           main] com.zwolf.dlv.RestServiceApplication     : No active profile set, falling back to default profiles: default
+2021-12-03 16:07:42.282  INFO 9857 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-03 16:07:42.340  INFO 9857 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-03 16:07:42.341  INFO 9857 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-03 16:07:42.695  INFO 9857 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-03 16:07:42.696  INFO 9857 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6800 ms
+2021-12-03 16:07:45.337  INFO 9857 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-03 16:07:46.428  INFO 9857 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-03 16:07:48.336  INFO 9857 --- [           main] com.zwolf.dlv.RestServiceApplication     : Started RestServiceApplication in 15.449 seconds (JVM running for 18.523)
+2021-12-03 16:07:52.619  INFO 9857 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-03 16:07:52.620  INFO 9857 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-03 16:07:52.623  INFO 9857 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh Vixs_1mMyv8'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 27MswxWca3g'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh y0zusjkHZl8'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh ZJ5ZlDEJiIc'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 1VrgQ1b8iNs'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh CFvadKURYRY'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh ybhX05QiBYc'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh ybhX05QiBYc'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh ZVkPkLGHHro'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh M67lPcrSfbQ'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 0JqaCkohyek'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh I25vwmQhw'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh h_WTuHD7SX4'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh uJYFhNwLbd8'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh bbf'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh bff'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.03-21.37.47.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.03-21.38.37.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 0JqaCkohyek'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.04-20.10.29.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.04-20.14.30.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.05-09.05.14.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.05-09.28.43.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh F4EK_RWz2LI'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh ijx3yt7Q49M'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh W91FAjIhUiw'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh CBAua2k3730'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh FkDCRX7UMKs'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh xbBjuPz5TQI'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh dB3mBp52h8g'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 6v_eqyiC-Z0'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh OhxpEG6DtYw'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh OhxpEG6DtYw'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh UrSYiCKxSaM'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh D891utOdEUc'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh rikFyu_FNJw'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 1TTfAG7ClJQ'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh uN0JaCeyj6A'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh INhW2jPNF6g'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh v7YGju0-48Y'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh PVYQl5pjFuU'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.07-22.43.49.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2021-12-09 16:23:00.983  INFO 17584 --- [           main] com.zwolf.dlv.RestServiceApplication     : Starting RestServiceApplication v0.1.0 using Java 11.0.9.1 on rpi4-nnlk with PID 17584 (/home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/target/youtube-dl-web-0.1.0.jar started by pi in /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv)
+2021-12-09 16:23:00.994  INFO 17584 --- [           main] com.zwolf.dlv.RestServiceApplication     : No active profile set, falling back to default profiles: default
+2021-12-09 16:23:07.444  INFO 17584 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-09 16:23:07.504  INFO 17584 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-09 16:23:07.505  INFO 17584 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-09 16:23:07.831  INFO 17584 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-09 16:23:07.832  INFO 17584 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6580 ms
+2021-12-09 16:23:10.405  INFO 17584 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-09 16:23:11.516  INFO 17584 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-09 16:23:13.265  INFO 17584 --- [           main] com.zwolf.dlv.RestServiceApplication     : Started RestServiceApplication in 14.91 seconds (JVM running for 17.485)
+2021-12-09 16:23:21.408  INFO 17584 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-09 16:23:21.409  INFO 17584 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-09 16:23:21.412  INFO 17584 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.09-18.41.46.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.09-18.51.37.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.09-18.58.59.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+2021-12-13 08:28:27.437  INFO 17584 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2021-12-14 11:02:54.437  INFO 16142 --- [           main] com.zwolf.dlv.RestServiceApplication     : Starting RestServiceApplication v0.1.0 using Java 11.0.9.1 on rpi4-nnlk with PID 16142 (/home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/target/youtube-dl-web-0.1.0.jar started by pi in /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv)
+2021-12-14 11:02:54.449  INFO 16142 --- [           main] com.zwolf.dlv.RestServiceApplication     : No active profile set, falling back to default profiles: default
+2021-12-14 11:03:01.102  INFO 16142 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-14 11:03:01.158  INFO 16142 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-14 11:03:01.159  INFO 16142 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-14 11:03:01.506  INFO 16142 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-14 11:03:01.507  INFO 16142 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6786 ms
+2021-12-14 11:03:04.119  INFO 16142 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-14 11:03:05.289  INFO 16142 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-14 11:03:07.152  INFO 16142 --- [           main] com.zwolf.dlv.RestServiceApplication     : Started RestServiceApplication in 15.427 seconds (JVM running for 18.484)
+2021-12-14 11:03:12.503  INFO 16142 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-14 11:03:12.504  INFO 16142 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-14 11:03:12.509  INFO 16142 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.14-11.03.32.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.14-11.18.58.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.14-11.36.57.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.15-15.18.04.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.15-15.57.04.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh sardines'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.18-10.18.45.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.18-20.56.02.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.20-17.21.47.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.21-08.34.50.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.22-17.21.51.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.23-15.38.28.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+2021-12-26 07:30:37.285  INFO 16142 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2021-12-27 11:00:33.448  INFO 1545 --- [           main] com.zwolf.dlv.RestServiceApplication     : Starting RestServiceApplication v0.1.0 using Java 11.0.9.1 on rpi4-nnlk with PID 1545 (/home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/target/youtube-dl-web-0.1.0.jar started by pi in /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv)
+2021-12-27 11:00:33.461  INFO 1545 --- [           main] com.zwolf.dlv.RestServiceApplication     : No active profile set, falling back to default profiles: default
+2021-12-27 11:00:40.081  INFO 1545 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-27 11:00:40.138  INFO 1545 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-27 11:00:40.139  INFO 1545 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-27 11:00:40.482  INFO 1545 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-27 11:00:40.483  INFO 1545 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6739 ms
+2021-12-27 11:00:43.073  INFO 1545 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-27 11:00:44.207  INFO 1545 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-27 11:00:46.076  INFO 1545 --- [           main] com.zwolf.dlv.RestServiceApplication     : Started RestServiceApplication in 15.329 seconds (JVM running for 18.373)
+2021-12-27 11:02:47.936  INFO 1545 --- [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-27 11:02:47.936  INFO 1545 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-27 11:02:47.940  INFO 1545 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.27-11.03.12.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2021-12-29 13:47:04.941  INFO 3929 --- [           main] com.zwolf.dlv.RestServiceApplication     : Starting RestServiceApplication v0.1.0 using Java 11.0.9.1 on rpi4-nnlk with PID 3929 (/home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/target/youtube-dl-web-0.1.0.jar started by pi in /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv)
+2021-12-29 13:47:04.953  INFO 3929 --- [           main] com.zwolf.dlv.RestServiceApplication     : No active profile set, falling back to default profiles: default
+2021-12-29 13:47:11.631  INFO 3929 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-29 13:47:11.689  INFO 3929 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-29 13:47:11.689  INFO 3929 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-12-29 13:47:12.030  INFO 3929 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-29 13:47:12.031  INFO 3929 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6800 ms
+2021-12-29 13:47:14.620  INFO 3929 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-29 13:47:15.802  INFO 3929 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-29 13:47:17.716  INFO 3929 --- [           main] com.zwolf.dlv.RestServiceApplication     : Started RestServiceApplication in 15.502 seconds (JVM running for 18.548)
+2021-12-29 13:47:47.083  INFO 3929 --- [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-29 13:47:47.084  INFO 3929 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-29 13:47:47.088  INFO 3929 --- [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2021.12.29-13.48.01.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+2021-12-30 11:47:22.266  INFO 3929 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2022-01-03 17:01:15.578  INFO 1792 --- [           main] com.zwolf.dlv.RestServiceApplication     : Starting RestServiceApplication v0.1.0 using Java 11.0.9.1 on rpi4-nnlk with PID 1792 (/home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/target/youtube-dl-web-0.1.0.jar started by pi in /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv)
+2022-01-03 17:01:15.591  INFO 1792 --- [           main] com.zwolf.dlv.RestServiceApplication     : No active profile set, falling back to default profiles: default
+2022-01-03 17:01:22.185  INFO 1792 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-03 17:01:22.244  INFO 1792 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-03 17:01:22.245  INFO 1792 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-01-03 17:01:22.560  INFO 1792 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-03 17:01:22.561  INFO 1792 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6704 ms
+2022-01-03 17:01:25.192  INFO 1792 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-03 17:01:26.340  INFO 1792 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-03 17:01:28.220  INFO 1792 --- [           main] com.zwolf.dlv.RestServiceApplication     : Started RestServiceApplication in 15.329 seconds (JVM running for 18.397)
+2022-01-03 17:03:57.835  INFO 1792 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-03 17:03:57.836  INFO 1792 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-03 17:03:57.839  INFO 1792 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.03-17.04.17.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.05-09.32.47.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.05-22.26.15.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.05-23.15.10.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.06-00.01.15.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.06-11.16.31.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.06-16.47.38.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.07-09.33.29.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.08-10.07.43.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.09-12.46.34.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.09-23.52.08.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.11-09.10.25.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.11-10.23.52.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.12-16.39.08.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2022-01-13 08:46:26.658  INFO 14130 --- [           main] com.zwolf.dlv.RestServiceApplication     : Starting RestServiceApplication v0.1.0 using Java 11.0.9.1 on rpi4-nnlk with PID 14130 (/home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/target/youtube-dl-web-0.1.0.jar started by pi in /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv)
+2022-01-13 08:46:26.670  INFO 14130 --- [           main] com.zwolf.dlv.RestServiceApplication     : No active profile set, falling back to default profiles: default
+2022-01-13 08:46:33.327  INFO 14130 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-13 08:46:33.383  INFO 14130 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-13 08:46:33.384  INFO 14130 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-01-13 08:46:33.731  INFO 14130 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-13 08:46:33.732  INFO 14130 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6774 ms
+2022-01-13 08:46:36.324  INFO 14130 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-13 08:46:37.459  INFO 14130 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-13 08:46:39.327  INFO 14130 --- [           main] com.zwolf.dlv.RestServiceApplication     : Started RestServiceApplication in 15.362 seconds (JVM running for 18.426)
+2022-01-13 20:39:26.622  INFO 14130 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-13 20:39:26.623  INFO 14130 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-13 20:39:26.627  INFO 14130 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.14-15.54.10.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+2022-01-20 09:05:58.052  INFO 14130 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2022-01-20 09:28:11.413  INFO 1856 --- [           main] com.zwolf.dlv.RestServiceApplication     : Starting RestServiceApplication v0.1.0 using Java 11.0.9.1 on rpi4-nnlk with PID 1856 (/home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/target/youtube-dl-web-0.1.0.jar started by pi in /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv)
+2022-01-20 09:28:11.426  INFO 1856 --- [           main] com.zwolf.dlv.RestServiceApplication     : No active profile set, falling back to default profiles: default
+2022-01-20 09:28:18.148  INFO 1856 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-20 09:28:18.205  INFO 1856 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-20 09:28:18.206  INFO 1856 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-01-20 09:28:18.521  INFO 1856 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-20 09:28:18.521  INFO 1856 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6822 ms
+2022-01-20 09:28:21.124  INFO 1856 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2022-01-20 09:28:22.239  INFO 1856 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-20 09:28:24.121  INFO 1856 --- [           main] com.zwolf.dlv.RestServiceApplication     : Started RestServiceApplication in 15.409 seconds (JVM running for 18.482)
+2022-01-20 09:34:09.153  INFO 1856 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-20 09:34:09.154  INFO 1856 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-20 09:34:09.157  INFO 1856 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.20-09.34.24.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh bbf'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh bff'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.24-15.20.38.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.01.29-11.21.23.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh Npmn1wxpthq'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh aicem'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 2nkm'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh yoi7'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.02.01-08.32.12.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.02.02-11.59.56.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 56251493'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh 687A7F7F_234433019_1'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -i /home/pi/git/com.zwolf.raspberrypi/dlv/jdlv/web-inputs/2022.02.11-14.01.51.txt -c /home/pi/git/com.zwolf.raspberrypi/dlv/cookies.txt'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/vsearch.sh bff'
+EXECUTING: '/home/pi/git/com.zwolf.raspberrypi/dlv/dlv.sh -s'

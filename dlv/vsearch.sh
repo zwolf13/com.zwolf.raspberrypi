@@ -1,7 +1,7 @@
 #!/bin/bash
 
 NNLK_NEW_VIDEOS=/srv/dev-disk-by-uuid-FE5A2CD05A2C880B/NNLK_NEW/ZWOLF_HOME/_Nanalka/new/videos;
-NNLK_ONLINE_VIDEOS=/home/pi/rpi4-online-nnlk_online/media/videos/;
+NNLK_ONLINE_VIDEOS=/srv/dev-disk-by-uuid-A8500FA4500F7878/ZWOLF_HOME/_Nanalka/media/videos;
 
 QUERY="${1}";
 
@@ -22,5 +22,5 @@ done
 
 for line in "${ONLINE_RESULTS_ARRAY[@]}"
 do
-    echo "${line/*rpi4-online-nnlk_online/rpi4-online-nnlk_online}";
+    echo "${line/*dev-disk-by-uuid-A8500FA4500F7878/NNLK_ONLINE}";
 done
