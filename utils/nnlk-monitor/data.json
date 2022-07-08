@@ -1,0 +1,34 @@
+{
+  "context": {
+    "client": {
+      "hl": "en-GB",
+      "gl": "US",
+      "userAgent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0,gzip(gfe)",
+      "clientName": "WEB",
+      "clientVersion": "2.20220404.01.00",
+      "osName": "Windows",
+      "osVersion": "6.3",
+      "originalUrl": "https://www.youtube.com/results?search_query=snoring&sp=CAI%253D",
+      "platform": "DESKTOP",
+      "userInterfaceTheme": "USER_INTERFACE_THEME_DARK",
+      "timeZone": "America/New_York",
+      "browserName": "Firefox",
+      "browserVersion": "98.0",
+      "mainAppWebInfo": {
+        "graftUrl": "/results?search_query=snoring&sp=CAI%253D",
+        "webDisplayMode": "WEB_DISPLAY_MODE_BROWSER",
+        "isWebNativeShareAvailable": false
+      }
+    },
+    "user": {
+      "lockedSafetyMode": false
+    },
+    "request": {
+      "useSsl": true,
+      "internalExperimentFlags": [],
+      "consistencyTokenJars": []
+    }
+  },
+  "query": "snoring",
+  "params": "CAI%3D"
+}
